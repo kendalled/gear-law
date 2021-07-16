@@ -207,7 +207,7 @@
             <div class="grid grid-cols-1 mt-8 md:grid-cols-2">
               <img class="col-span-1 rounded-lg shadow-xl ring-1 ring-black ring-opacity-5" src="~/static/team.jpg" alt="Meeting photo">
               <span class="col-span-1 text-left">
-                <p class="pt-10 pb-8 text-lg font-medium text-gray-600">
+                <p class="py-8 text-lg font-medium text-gray-600 lg:mt-2">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet adipisci, animi corrupti perspiciatis libero molestiae ad praesentium similique quis repudiandae possimus eligendi atque dolorem corporis impedit sint dolores exercitationem sapiente.
                 </p>
                 <div class="pt-6 border-t border-gray-200">
