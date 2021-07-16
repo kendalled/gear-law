@@ -234,10 +234,10 @@
           </div>
         </div>
 
-        <CheckList class="hidden" />
+        <CheckList />
 
         <!-- Feature section with grid was bg:white -->
-        <div class="relative py-16 bg-white sm:py-24 lg:py-32">
+        <div class="relative hidden py-16 bg-white sm:py-24 lg:py-32">
           <div class="max-w-md px-4 mx-auto text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
             <h2 class="text-base font-semibold tracking-wider uppercase text-light-blue-600">
               our advantage
@@ -325,7 +325,7 @@
                         </span>
                       </div>
                       <h3 class="mt-8 text-lg font-medium tracking-tight text-gray-900">
-                        No Fees
+                        Honest Pricing
                       </h3>
                       <p class="mt-5 text-base text-gray-500">
                         Rerum quas incidunt deleniti quaerat suscipit mollitia. Amet repellendus ut odit dolores qui.

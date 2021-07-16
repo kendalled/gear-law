@@ -8,10 +8,10 @@
           Everything you need
         </h2>
         <p class="mt-2 text-3xl font-extrabold text-gray-900">
-          Feel confident in the courtroom
+          Feel confident in the courtroom.
         </p>
         <p class="mt-4 text-lg text-gray-500">
-          Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla nec.
+          Our team of experienced attorneys are always prepared for any case. We have everything you need to succeed.
         </p>
       </div>
       <div class="mt-12 lg:mt-0 lg:col-span-2">
@@ -30,7 +30,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
               </svg>
               <p class="text-lg font-medium leading-6 text-gray-900 ml-9">
-                Keyboard shortcuts
+                Legal advice
               </p>
             </dt>
             <dd class="mt-2 text-base text-gray-500 ml-9">
@@ -140,7 +140,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
               </svg>
               <p class="text-lg font-medium leading-6 text-gray-900 ml-9">
-                Mobile app
+                24/7 Support
               </p>
             </dt>
             <dd class="mt-2 text-base text-gray-500 ml-9">
