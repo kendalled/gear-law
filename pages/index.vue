@@ -142,7 +142,7 @@
                         </div>
                       </div>
                       <p class="mt-3 text-sm text-gray-300 sm:mt-4">
-                        Start your free 14-day trial, no credit card necessary. By providing your email, you agree to our <a href="#" class="font-medium text-white">terms or service</a>.
+                        Start your free consultation, no credit card necessary. By providing your email, you agree to our <a href="#" class="font-medium text-white">terms or service</a>.
                       </p>
                     </form>
                   </div>
@@ -151,7 +151,7 @@
               <div class="mt-12 -mb-16 sm:-mb-48 lg:m-0 lg:relative">
                 <div class="max-w-md px-4 mx-auto sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
                   <!-- Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ -->
-                  <img class="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="~/static/shield.svg" alt="">
+                  <Shield />
                 </div>
               </div>
             </div>
@@ -204,8 +204,32 @@
               </p>
             </div>
             <!-- was lg:-mb-80 -->
-            <div class="mt-12 -mb-10 sm:-mb-24 lg:-mb-0">
-              <img class="rounded-lg shadow-xl ring-1 ring-black ring-opacity-5" src="~/static/team.jpg" alt="Meeting photo">
+            <div class="grid grid-cols-1 mt-8 md:grid-cols-2">
+              <img class="col-span-1 rounded-lg shadow-xl ring-1 ring-black ring-opacity-5" src="~/static/team.jpg" alt="Meeting photo">
+              <span class="col-span-1 text-left">
+                <p class="py-8 text-lg font-medium text-gray-600">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet adipisci, animi corrupti perspiciatis libero molestiae ad praesentium similique quis repudiandae possimus eligendi atque dolorem corporis impedit sint dolores exercitationem sapiente.
+                </p>
+                <div class="pt-6 border-t border-gray-200">
+                  <blockquote>
+                    <div>
+                      <p class="text-base text-gray-500">
+                        &ldquo;I was involved in a car accident [...] &amp; Mike Gagnon is an experienced, dependable, and knowledgeable attorney. Couldn’t be happier with my results.&rdquo;
+                      </p>
+                    </div>
+                    <footer class="mt-3">
+                      <div class="flex items-center space-x-3">
+                        <div class="flex-shrink-0">
+                          <img class="w-6 h-6 rounded-full" src="https://images.unsplash.com/photo-1529701870190-9ae4010fd124?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt="">
+                        </div>
+                        <div class="text-base font-medium text-gray-700">
+                          John Fitzgerald, Business Owner
+                        </div>
+                      </div>
+                    </footer>
+                  </blockquote>
+                </div>
+              </span>
             </div>
           </div>
         </div>
@@ -245,7 +269,7 @@
                         </span>
                       </div>
                       <h3 class="mt-8 text-lg font-medium tracking-tight text-gray-900">
-                        Push to Deploy
+                        Legal Counsel
                       </h3>
                       <p class="mt-5 text-base text-gray-500">
                         Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi vitae lobortis.
@@ -273,7 +297,7 @@
                         </span>
                       </div>
                       <h3 class="mt-8 text-lg font-medium tracking-tight text-gray-900">
-                        SSL Certificates
+                        Secure Communication
                       </h3>
                       <p class="mt-5 text-base text-gray-500">
                         Qui aut temporibus nesciunt vitae dicta repellat sit dolores pariatur. Temporibus qui illum aut.
@@ -301,7 +325,7 @@
                         </span>
                       </div>
                       <h3 class="mt-8 text-lg font-medium tracking-tight text-gray-900">
-                        Simple Queues
+                        No Fees
                       </h3>
                       <p class="mt-5 text-base text-gray-500">
                         Rerum quas incidunt deleniti quaerat suscipit mollitia. Amet repellendus ut odit dolores qui.
@@ -329,7 +353,7 @@
                         </span>
                       </div>
                       <h3 class="mt-8 text-lg font-medium tracking-tight text-gray-900">
-                        Advanced Security
+                        Experienced Attorneys
                       </h3>
                       <p class="mt-5 text-base text-gray-500">
                         Ullam laboriosam est voluptatem maxime ut mollitia commodi. Et dignissimos suscipit perspiciatis.
@@ -358,7 +382,7 @@
                         </span>
                       </div>
                       <h3 class="mt-8 text-lg font-medium tracking-tight text-gray-900">
-                        Powerful API
+                        Quick Turnarounds
                       </h3>
                       <p class="mt-5 text-base text-gray-500">
                         Ab a facere voluptatem in quia corrupti veritatis aliquam. Veritatis labore quaerat ipsum quaerat id.
@@ -406,7 +430,7 @@
               <div aria-hidden="true" class="absolute inset-x-0 top-0 bg-white h-1/2 lg:hidden" />
               <div class="max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:p-0 lg:h-full">
                 <div class="overflow-hidden shadow-xl aspect-w-10 aspect-h-6 rounded-xl sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full">
-                  <img class="object-cover lg:h-full lg:w-full" src="https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80" alt="">
+                  <img class="object-cover lg:h-full lg:w-full" src="https://images.unsplash.com/photo-1606002830191-c1b4f20e6cda?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2102&q=90" alt="">
                 </div>
               </div>
             </div>
@@ -418,12 +442,12 @@
                       <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
                     </svg>
                     <p class="mt-6 text-2xl font-medium text-white">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit.
+                      I was involved in a serious car accident and my attorney Justin Eisele was a godsend. [...] He was extremely professional in every way. He always returned my calls and answered all my questions. When he called to update me on my case, I was ecstatic as he thoroughly explained that all medical costs had been taken care of.
                     </p>
                   </div>
                   <footer class="mt-6">
                     <p class="text-base font-medium text-white">
-                      Judith Black
+                      Phillip Sanders
                     </p>
                     <p class="text-base font-medium text-light-blue-100">
                       CEO at PureInsights
@@ -616,14 +640,13 @@
               </p>
               <div class="mt-8">
                 <div class="inline-flex rounded-md shadow">
-                  <a href="#" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-gray-900 bg-white border border-transparent rounded-md hover:bg-gray-50">
+                  <button class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-gray-900 bg-white border border-transparent rounded-md hover:bg-gray-50">
                     Visit the help center
-                    <!-- Heroicon name: solid/external-link -->
                     <svg class="w-5 h-5 ml-3 -mr-1 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                       <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
                       <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
                     </svg>
-                  </a>
+                  </button>
                 </div>
               </div>
             </div>
