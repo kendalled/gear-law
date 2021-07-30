@@ -202,7 +202,7 @@
               <div>
                 <label for="first-name" class="block text-sm font-medium text-gray-900">First name</label>
                 <div class="mt-1">
-                  <input id="first-name" type="text" name="first-name" autocomplete="given-name" class="block w-full px-4 py-3 text-gray-900 border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                  <input id="first-name" type="text" name="first-name" autocomplete="given-name" class="block w-full px-4 py-3 text-gray-900 border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 form-input">
                 </div>
               </div>
               <div>
