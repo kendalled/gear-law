@@ -233,6 +233,7 @@
             </div>
           </div>
         </div>
+        <logo-cloud />
 
         <CheckList />
 
@@ -620,7 +621,7 @@
             </div>
           </div>
         </div>
-
+        <ContactForm />
         <!-- CTA Section -->
         <div class="relative bg-gray-900">
           <div class="relative h-56 bg-blue-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
@@ -840,7 +841,9 @@
 </template>
 
 <script>
+import LogoCloud from '~/components/LogoCloud.vue'
 export default {
+  components: { LogoCloud },
   data () {
     return {
       mobileOpen: false
