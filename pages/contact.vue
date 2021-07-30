@@ -31,10 +31,10 @@
         <nav class="relative flex items-center justify-between px-6 pt-6 mx-auto max-w-7xl xl:px-8" aria-label="Global">
           <div class="flex items-center flex-1">
             <div class="flex items-center justify-between w-full lg:w-auto">
-              <a href="#">
-                <span class="sr-only">Workflow</span>
-                <img class="w-auto h-8 sm:h-10" src="https://tailwindui.com/img/logos/workflow-mark.svg?color=blue&shade=500" alt="">
-              </a>
+              <nuxt-link to="/">
+                <span class="sr-only">Gear Law</span>
+                <img class="w-auto h-8 sm:h-10" src="~/static/gear.png" alt="Gear Law">
+              </nuxt-link>
               <div class="flex items-center -mr-2 lg:hidden">
                 <button type="button" class="inline-flex items-center justify-center p-2 rounded-md bg-warm-gray-50 text-warm-gray-400 hover:bg-warm-gray-100 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-blue-500" aria-expanded="false">
                   <span class="sr-only">Open main menu</span>
@@ -84,7 +84,7 @@
         <div class="overflow-hidden bg-white rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
           <div class="flex items-center justify-between px-5 pt-4">
             <div>
-              <img class="w-auto h-8" src="https://tailwindui.com/img/logos/workflow-mark.svg?color=blue&shade=500" alt="">
+              <img class="w-auto h-8" src="~/static/gear.png" alt="Gear Law">
             </div>
             <div class="-mr-2">
               <button type="button" class="inline-flex items-center justify-center p-2 bg-white rounded-md text-warm-gray-400 hover:bg-warm-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500">
