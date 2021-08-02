@@ -41,7 +41,7 @@
           </div>
           <div class="hidden lg:flex lg:items-center lg:space-x-6">
             <a href="#" class="px-6 py-2 text-base font-medium border border-transparent rounded-md bg-warm-gray-100 text-warm-gray-900 hover:bg-warm-gray-200">
-              About us
+              Learn more
             </a>
           </div>
         </nav>
