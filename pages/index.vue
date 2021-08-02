@@ -97,7 +97,9 @@
                     <a href="#" class="block px-3 py-2 text-base font-medium text-gray-900 rounded-md hover:bg-gray-50">Company</a>
                   </div>
                   <div class="px-5 mt-6">
-                    <a href="#" class="block w-full px-4 py-3 font-medium text-center text-white rounded-md shadow bg-gradient-to-r from-blue-500 to-light-blue-600 hover:from-blue-600 hover:to-light-blue-700">Get started</a>
+                    <nuxt-link to="/contact" title="Contact page" class="block w-full px-4 py-3 font-medium text-center text-white rounded-md shadow bg-gradient-to-r from-blue-500 to-light-blue-600 hover:from-blue-600 hover:to-light-blue-700">
+                      Get started
+                    </nuxt-link>
                   </div>
                   <div class="px-5 mt-6">
                     <p class="text-base font-medium text-center text-gray-500">
@@ -138,9 +140,9 @@
                           <input id="email" type="email" placeholder="Enter your email" class="block w-full px-4 py-3 text-base text-gray-900 placeholder-gray-500 border-0 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-light-blue-400 focus:ring-offset-gray-900">
                         </div>
                         <div class="mt-3 sm:mt-0 sm:ml-3">
-                          <button type="submit" class="block w-full px-4 py-3 font-medium text-white rounded-md shadow bg-gradient-to-r from-blue-500 to-light-blue-600 hover:from-blue-600 hover:to-light-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-light-blue-400 focus:ring-offset-gray-900">
+                          <nuxt-link to="/contact" title="Contact page" class="flex justify-center w-full px-4 py-3 font-medium text-center text-white rounded-md shadow bg-gradient-to-r from-blue-500 to-light-blue-600 hover:from-blue-600 hover:to-light-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-light-blue-400 focus:ring-offset-gray-900">
                             Get started
-                          </button>
+                          </nuxt-link>
                         </div>
                       </div>
                       <p class="mt-3 text-sm text-gray-300 sm:mt-4">

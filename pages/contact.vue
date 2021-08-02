@@ -41,7 +41,7 @@
           </div>
           <div class="hidden lg:flex lg:items-center lg:space-x-6">
             <a href="#" class="px-6 py-2 text-base font-medium border border-transparent rounded-md bg-warm-gray-100 text-warm-gray-900 hover:bg-warm-gray-200">
-              Contact us
+              About us
             </a>
           </div>
         </nav>
@@ -351,7 +351,7 @@
         </div>
         <div class="pt-8 mt-12 border-t border-warm-gray-700">
           <p class="text-base text-warm-gray-400 xl:text-center">
-            &copy; 2021 Gear Law, Inc. All rights reserved.
+            &copy; 2021 Shine Web Design, LLC. All rights reserved.
           </p>
         </div>
       </div>
