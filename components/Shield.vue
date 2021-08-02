@@ -26,8 +26,8 @@
       .st11{opacity:0.3;fill:url(#SVGID_9_);enable-background:new    ;}
       .st12{fill:#0284C7;}
       .st13{opacity:0.2;fill:url(#SVGID_10_);enable-background:new    ;}
-      @keyframes bounce { 0% { transform: translateY(0); } 100% { transform: translateY(-15px); } }
-      #bouncer, #bouncer2 { animation: bounce 1s infinite alternate; }
+      /*@keyframes bounce { 0% { transform: translateY(0); } 100% { transform: translateY(-15px); } }
+      #bouncer, #bouncer2 { animation: bounce 1s infinite alternate; }*/
     </style>
     <linearGradient
       id="SVGID_1_"

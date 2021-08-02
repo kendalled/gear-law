@@ -15,8 +15,8 @@
           aria-haspopup="listbox"
           :aria-expanded="expanded.toString()"
           :aria-labelledby="('listbox-label-' + title) + (' listbox-item-' + title)"
-          :class="[expanded ? 'focus:outline-none' : 'focus:outline-none focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50']"
-          class="relative w-full py-2 pl-3 pr-10 text-left bg-white border border-gray-300 rounded-md cursor-default"
+          :class="[expanded ? 'focus:outline-none' : 'focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:ring-1']"
+          class="relative w-full py-3 pl-4 pr-10 text-left bg-white border border-gray-300 rounded-md cursor-default"
           @click.prevent="toggleSelect"
         >
           <span class="block truncate">

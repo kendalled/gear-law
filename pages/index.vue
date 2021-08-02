@@ -36,16 +36,18 @@
 
                   <a href="#" class="text-base font-medium text-white hover:text-gray-300">Services</a>
 
-                  <a href="#" class="text-base font-medium text-white hover:text-gray-300">Company</a>
+                  <a href="#" title="Blog Posts" class="text-base font-medium text-white hover:text-gray-300">
+                    Blog
+                  </a>
                 </div>
               </div>
               <div class="hidden md:flex md:items-center md:space-x-6">
                 <a href="#" class="text-base font-medium text-white hover:text-gray-300">
                   Log in
                 </a>
-                <a href="#" class="inline-flex items-center px-4 py-2 text-base font-medium text-white bg-gray-600 border border-transparent rounded-md hover:bg-gray-700">
+                <nuxt-link to="/contact" title="Contact page" class="inline-flex items-center px-4 py-2 text-base font-medium text-white bg-gray-600 border border-transparent rounded-md hover:bg-gray-700">
                   Get started
-                </a>
+                </nuxt-link>
               </div>
             </nav>
           </div>
@@ -479,7 +481,7 @@
                 <div class="flex-shrink-0">
                   <img class="object-cover w-full h-48" src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80" alt="">
                 </div>
-                <div class="flex flex-col justify-between flex-1 p-6 bg-white">
+                <div class="relative z-50 flex flex-col justify-between flex-1 p-6 bg-white">
                   <div class="flex-1">
                     <p class="text-sm font-medium text-light-blue-600">
                       <a href="#" class="hover:underline">
@@ -527,7 +529,7 @@
                 <div class="flex-shrink-0">
                   <img class="object-cover w-full h-48" src="https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80" alt="">
                 </div>
-                <div class="flex flex-col justify-between flex-1 p-6 bg-white">
+                <div class="relative z-50 flex flex-col justify-between flex-1 p-6 bg-white">
                   <div class="flex-1">
                     <p class="text-sm font-medium text-light-blue-600">
                       <a href="#" class="hover:underline">
@@ -575,7 +577,7 @@
                 <div class="flex-shrink-0">
                   <img class="object-cover w-full h-48" src="https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80" alt="">
                 </div>
-                <div class="flex flex-col justify-between flex-1 p-6 bg-white">
+                <div class="relative z-50 flex flex-col justify-between flex-1 p-6 bg-white">
                   <div class="flex-1">
                     <p class="text-sm font-medium text-light-blue-600">
                       <a href="#" class="hover:underline">
@@ -621,7 +623,7 @@
             </div>
           </div>
         </div>
-        <ContactForm />
+        <ContactForm class="mb-12" />
         <!-- CTA Section -->
         <div class="relative bg-gray-900">
           <div class="relative h-56 bg-blue-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
