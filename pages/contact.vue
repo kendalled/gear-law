@@ -10,7 +10,7 @@
             <div class="flex items-center justify-between w-full lg:w-auto">
               <nuxt-link to="/">
                 <span class="sr-only">Gear Law</span>
-                <img class="w-auto h-8 sm:h-10" src="~/static/logo.png" alt="Gear Law">
+                <img class="w-auto h-8 sm:h-12" src="~/static/logo.png" alt="Gear Law">
               </nuxt-link>
               <div class="flex items-center -mr-2 lg:hidden">
                 <button type="button" class="inline-flex items-center justify-center p-2 rounded-md bg-warm-gray-50 text-warm-gray-400 hover:bg-warm-gray-100 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-blue-500" aria-expanded="false" @click.prevent="mobileOpen = true">
