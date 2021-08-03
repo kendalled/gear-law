@@ -13,7 +13,7 @@
                 <img class="w-auto h-8 sm:h-10" src="~/static/logo.png" alt="Gear Law">
               </nuxt-link>
               <div class="flex items-center -mr-2 lg:hidden">
-                <button type="button" class="inline-flex items-center justify-center p-2 rounded-md bg-warm-gray-50 text-warm-gray-400 hover:bg-warm-gray-100 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-blue-500" aria-expanded="false">
+                <button type="button" class="inline-flex items-center justify-center p-2 rounded-md bg-warm-gray-50 text-warm-gray-400 hover:bg-warm-gray-100 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-blue-500" aria-expanded="false" @click.prevent="mobileOpen = true">
                   <span class="sr-only">Open main menu</span>
                   <!-- Heroicon name: outline/menu -->
                   <svg
@@ -41,61 +41,65 @@
           </div>
           <div class="hidden lg:flex lg:items-center lg:space-x-6">
             <a href="#" class="px-6 py-2 text-base font-medium border border-transparent rounded-md bg-warm-gray-100 text-warm-gray-900 hover:bg-warm-gray-200">
-              Learn more
+              Need help?
             </a>
           </div>
         </nav>
       </div>
 
       <!--
-      Mobile menu, show/hide based on menu open state.
-
-      Entering: "duration-150 ease-out"
-        From: "opacity-0 scale-95"
-        To: "opacity-100 scale-100"
-      Leaving: "duration-100 ease-in"
-        From: "opacity-100 scale-100"
-        To: "opacity-0 scale-95"
-    -->
-      <div class="absolute inset-x-0 top-0 z-30 p-2 transition origin-top transform lg:hidden">
-        <div class="overflow-hidden bg-white rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
-          <div class="flex items-center justify-between px-5 pt-4">
-            <div>
-              <img class="w-auto h-8" src="~/static/gear.png" alt="Gear Law">
+        Mobile menu, show/hide based on menu open state.
+      -->
+      <transition
+        enter-active-class="duration-150 ease-out"
+        enter-class="scale-95 opacity-0"
+        enter-to-class="ease-in opacity-100"
+        leave-active-class="duration-100 ease-in"
+        leave-class="scale-100 opacity-100"
+        leave-to-class="scale-95 opacity-0"
+      >
+        <div v-if="mobileOpen" class="absolute inset-x-0 top-0 z-30 p-2 transition origin-top transform lg:hidden">
+          <div class="overflow-hidden bg-white rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
+            <div class="flex items-center justify-between px-5 pt-4">
+              <div>
+                <img class="w-auto h-8" src="~/static/logo.png" alt="Gear Law">
+              </div>
+              <div class="-mr-2">
+                <button type="button" class="inline-flex items-center justify-center p-2 bg-white rounded-md text-warm-gray-400 hover:bg-warm-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500" @click.prevent="mobileOpen = false">
+                  <span class="sr-only">Close menu</span>
+                  <!-- Heroicon name: outline/x -->
+                  <svg
+                    class="w-6 h-6"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              </div>
             </div>
-            <div class="-mr-2">
-              <button type="button" class="inline-flex items-center justify-center p-2 bg-white rounded-md text-warm-gray-400 hover:bg-warm-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500">
-                <span class="sr-only">Close menu</span>
-                <!-- Heroicon name: outline/x -->
-                <svg
-                  class="w-6 h-6"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  aria-hidden="true"
-                >
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-                </svg>
-              </button>
-            </div>
-          </div>
-          <div class="pt-5 pb-6">
-            <div class="px-2 space-y-1">
-              <a href="#" class="block px-3 py-2 text-base font-medium rounded-md text-warm-gray-900 hover:bg-warm-gray-50">Changelog</a>
+            <div class="pt-5 pb-6">
+              <div class="px-2 space-y-1">
+                <nuxt-link to="/" title="Home" class="block px-3 py-2 text-base font-medium rounded-md text-warm-gray-900 hover:bg-warm-gray-50">
+                  Home
+                </nuxt-link>
 
-              <a href="#" class="block px-3 py-2 text-base font-medium rounded-md text-warm-gray-900 hover:bg-warm-gray-50">About</a>
+                <a href="#" class="block px-3 py-2 text-base font-medium rounded-md text-warm-gray-900 hover:bg-warm-gray-50">Attorneys</a>
 
-              <a href="#" class="block px-3 py-2 text-base font-medium rounded-md text-warm-gray-900 hover:bg-warm-gray-50">Partners</a>
+                <a href="#" class="block px-3 py-2 text-base font-medium rounded-md text-warm-gray-900 hover:bg-warm-gray-50">Services</a>
 
-              <a href="#" class="block px-3 py-2 text-base font-medium rounded-md text-warm-gray-900 hover:bg-warm-gray-50">News</a>
-            </div>
-            <div class="px-5 mt-6">
-              <a href="#" class="block w-full px-4 py-2 font-medium text-center text-white bg-blue-500 border border-transparent rounded-md shadow hover:bg-blue-600">Login</a>
+                <a href="#" class="block px-3 py-2 text-base font-medium rounded-md text-warm-gray-900 hover:bg-warm-gray-50">Blog</a>
+              </div>
+              <div class="px-5 mt-6">
+                <a href="#" class="block w-full px-4 py-2 font-medium text-center text-white bg-blue-500 border border-transparent rounded-md shadow hover:bg-blue-600">Login</a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </transition>
     </header>
 
     <main class="overflow-hidden">
@@ -363,6 +367,11 @@
 import ContactForm from '~/components/ContactForm.vue'
 export default {
   components: { ContactForm },
-  layout: 'default'
+  layout: 'default',
+  data () {
+    return {
+      mobileOpen: false
+    }
+  }
 }
 </script>

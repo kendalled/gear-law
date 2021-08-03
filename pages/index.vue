@@ -641,7 +641,7 @@
                 We’re here to help
               </p>
               <p class="mt-3 text-lg text-gray-300">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam sed. Quam a scelerisque amet ullamcorper eu enim et fermentum, augue. Aliquet amet volutpat quisque ut interdum tincidunt duis.
+                With over five decades of experience between our attorneys, we are ready to tackle any case, and do so with experience. Not sure how to get started? Contact our stellar customer support.
               </p>
               <div class="mt-8">
                 <div class="inline-flex rounded-md shadow">
