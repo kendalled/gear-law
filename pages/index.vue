@@ -10,7 +10,7 @@
                   <a href="#">
                     <span class="sr-only">Gear Law Logo</span>
                     <!-- was: sm:h-10 -->
-                    <img class="w-auto h-8 sm:h-12" src="~/static/logo.png" alt="Gear law logo">
+                    <img class="w-auto h-8 sm:h-16" src="~/static/gear2.svg" alt="Gear law logo">
                   </a>
                   <div class="flex items-center -mr-2 md:hidden">
                     <button type="button" class="inline-flex items-center justify-center p-2 text-gray-400 bg-gray-900 rounded-md hover:bg-gray-800 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white" aria-expanded="false" @click="mobileOpen = true">
@@ -34,7 +34,9 @@
 
                   <a href="#" class="text-base font-medium text-white hover:text-gray-300">Attorneys</a>
 
-                  <a href="#" class="text-base font-medium text-white hover:text-gray-300">Services</a>
+                  <nuxt-link to="/support" class="text-base font-medium text-white hover:text-gray-300">
+                    Support
+                  </nuxt-link>
 
                   <a href="#" title="Blog Posts" class="text-base font-medium text-white hover:text-gray-300">
                     Blog
@@ -67,7 +69,7 @@
               <div class="overflow-hidden bg-white rounded-lg shadow-md ring-1 ring-black ring-opacity-5">
                 <div class="flex items-center justify-between px-5 pt-4">
                   <div>
-                    <img class="w-auto h-8" src="~/static/logo.png" alt="Gear law logo">
+                    <img class="w-auto h-8" src="~/static/gear2.svg" alt="Gear law logo">
                   </div>
                   <div class="-mr-2">
                     <button type="button" class="inline-flex items-center justify-center p-2 text-gray-400 bg-white rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-light-blue-600" @click="mobileOpen = false">
@@ -92,7 +94,9 @@
 
                     <a href="#" class="block px-3 py-2 text-base font-medium text-gray-900 rounded-md hover:bg-gray-50">Attorneys</a>
 
-                    <a href="#" class="block px-3 py-2 text-base font-medium text-gray-900 rounded-md hover:bg-gray-50">Services</a>
+                    <nuxt-link to="/support" title="Support" class="block px-3 py-2 text-base font-medium text-gray-900 rounded-md hover:bg-gray-50">
+                      Support
+                    </nuxt-link>
 
                     <a href="#" class="block px-3 py-2 text-base font-medium text-gray-900 rounded-md hover:bg-gray-50">Company</a>
                   </div>
@@ -648,7 +652,7 @@ export default {
 </script>
 
 <style>
- h1, h2 {
-   font-family: 'Roboto Slab'
- }
+ /* h1, h2 {
+   font-family: 'Merriweather'
+ } */
 </style>

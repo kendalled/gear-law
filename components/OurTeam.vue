@@ -3,18 +3,21 @@
     <div class="px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:px-8 lg:py-24">
       <div class="space-y-12">
         <div class="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
-          <h3 class="text-3xl font-extrabold tracking-tight text-gray-800 sm:text-4xl">
+          <h2 class="text-base font-semibold tracking-wider text-blue-600 uppercase">
+            get introduced
+          </h2>
+          <h3 class="mt-2 text-3xl font-extrabold tracking-tight text-gray-800 sm:text-4xl">
             Meet our team of experienced attorneys
           </h3>
           <p class="text-xl text-gray-600">
-            Ornare sagittis, suspendisse in hendrerit quis. Sed dui aliquet lectus sit pretium egestas vel mattis neque.
+            With over five decades of combined experience on your side, one of our experienced attorneys will fight tirelessly for your case.
           </p>
         </div>
         <ul role="list" class="space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-3 lg:gap-8">
-          <li v-for="staff in attorneys" :key="staff.name" class="z-50 px-6 py-10 text-center bg-white rounded-lg shadow xl:px-10 xl:text-left">
+          <li v-for="staff in attorneys" :key="staff.name" class="relative z-50 px-6 py-10 text-center bg-white rounded-lg shadow xl:px-10 xl:text-left">
             <div class="space-y-6 xl:space-y-10">
               <img class="w-40 h-40 mx-auto rounded-full xl:w-56 xl:h-56" :src="staff.img" :alt="staff.name + ' profile'">
-              <div class="space-y-2 xl:flex xl:items-center xl:justify-between">
+              <div class="mb-3 space-y-2 xl:flex xl:items-center xl:justify-between">
                 <div class="space-y-1 text-lg font-medium leading-6">
                   <h3 class="text-gray-800">
                     {{ staff.name }}
@@ -44,6 +47,9 @@
                 </ul>
               </div>
             </div>
+            <p class="text-base text-gray-600">
+              This is a description of each attorney that you can edit once you log in.
+            </p>
           </li>
 
         <!-- More people... -->
