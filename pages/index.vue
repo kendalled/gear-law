@@ -3,7 +3,8 @@
     <div class="relative overflow-hidden">
       <main>
         <header class="relative">
-          <div class="pt-6 bg-gray-900">
+          <div class="absolute w-full h-24 shadow bg-gray-50" />
+          <div class="pt-6 bg-gray-900 ">
             <nav class="relative flex items-center justify-between px-4 mx-auto max-w-7xl sm:px-6" aria-label="Global">
               <div class="flex items-center flex-1">
                 <div class="flex items-center justify-between w-full md:w-auto">
@@ -159,7 +160,8 @@
               <div class="mt-12 -mb-16 sm:-mb-48 lg:m-0 lg:relative">
                 <div class="max-w-md px-4 mx-auto sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
                   <!-- Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ -->
-                  <Shield />
+                  <Shield class="hidden" />
+                  <img class="w-full lg:absolute lg:bottom-0 lg:top-4 lg:left-0 lg:h-auto lg:w-auto lg:max-w-screen-sm" src="~/static/gearteam.png" alt="Our team">
                 </div>
               </div>
             </div>

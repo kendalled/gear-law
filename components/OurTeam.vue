@@ -6,7 +6,7 @@
           <h2 class="text-base font-semibold tracking-wider text-blue-600 uppercase">
             get introduced
           </h2>
-          <h3 class="mt-2 text-3xl font-extrabold tracking-tight text-gray-800 sm:text-4xl">
+          <h3 class="mt-2 text-3xl font-extrabold tracking-tight text-gray-800 playfair sm:text-4xl">
             Meet our team of experienced attorneys
           </h3>
           <p class="text-xl text-gray-600">
@@ -22,7 +22,7 @@
                   <h3 class="text-gray-800">
                     {{ staff.name }}
                   </h3>
-                  <nuxt-link to="/mike" title="Mike Gagnon Biography" class="text-light-blue-600">
+                  <nuxt-link to="/mike" title="Mike Gagnon Biography" class="text-blue-600">
                     {{ staff.pos }}
                   </nuxt-link>
                 </div>
@@ -47,9 +47,12 @@
                 </ul>
               </div>
             </div>
-            <p class="text-base text-gray-600">
+            <p class="mt-2 text-base text-gray-600">
               This is a description of each attorney that you can edit once you log in.
             </p>
+            <button type="button" class="inline-flex justify-center w-full px-4 py-2 mt-4 text-base font-medium text-center text-blue-700 bg-blue-100 border border-transparent rounded-md hover:bg-blue-200 focus:outline-none justify-centerfocus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+              Read more
+            </button>
           </li>
 
         <!-- More people... -->

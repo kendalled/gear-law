@@ -6,7 +6,7 @@
     <div class="max-w-md px-4 pt-12 mx-auto sm:max-w-7xl sm:px-6 lg:pt-16 lg:px-8">
       <div class="xl:grid xl:grid-cols-3 xl:gap-8">
         <div class="space-y-8 xl:col-span-1">
-          <img class="-ml-2 h-14" src="~/static/logo.png" alt="Company name">
+          <img class="h-20 -ml-2" src="~/static/gear2.svg" alt="Company name">
           <p class="text-base text-gray-500">
             Making the world a better place through constructing elegant hierarchies.
           </p>
@@ -176,7 +176,7 @@
       </div>
       <div class="py-8 mt-12 border-t border-gray-200">
         <p class="text-base text-gray-400 xl:text-center">
-          &copy; 2021 Shine Web Design, LLC. All rights reserved.
+          &copy; 2022 Gear Law &amp; Shine Web Design, LLC. All rights reserved.
         </p>
       </div>
     </div>

@@ -7,7 +7,7 @@
         <h2 class="text-base font-semibold tracking-wide text-blue-600 uppercase">
           Everything you need
         </h2>
-        <p class="mt-2 text-3xl font-extrabold text-gray-900">
+        <p class="mt-2 text-3xl font-extrabold text-gray-900 playfair">
           Feel confident in the courtroom.
         </p>
         <p class="mt-4 text-lg text-gray-500">

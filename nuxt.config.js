@@ -42,7 +42,7 @@ export default {
   googleFonts: {
     // display: 'swap',
     families: {
-      'Merriweather': true
+      'Source Serif Pro': true
       // Lato: [100, 300],
       // Raleway: {
       //   wght: [100, 400],

@@ -1,7 +1,6 @@
 <template>
   <main>
-    <Hero />
-    <EtaHero />
+    <VideoHero />
     <!-- <LandingPage /> -->
   </main>
 </template>
