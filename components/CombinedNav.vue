@@ -270,7 +270,7 @@ export default {
       emailOpen: false,
       mapOpen: false,
       mobileOpen: false,
-      phoneOpen: true
+      phoneOpen: false
     }
   },
   methods: {
