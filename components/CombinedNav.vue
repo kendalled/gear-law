@@ -163,9 +163,9 @@
           <div class="hidden md:block md:ml-10 md:space-x-10">
             <a href="#" class="font-medium text-gray-500 hover:text-gray-900">Home</a>
 
-            <a href="#" class="font-medium text-gray-500 hover:text-gray-900">Attorneys</a>
+            <a href="#" class="font-medium text-gray-500 hover:text-gray-900">Services</a>
 
-            <a href="#" class="font-medium text-gray-500 hover:text-gray-900">Support</a>
+            <a href="#" class="font-medium text-gray-500 hover:text-gray-900">Attorneys</a>
 
             <a href="#" class="font-medium text-gray-500 hover:text-gray-900">Company</a>
           </div>
@@ -190,11 +190,17 @@
             407-716-8966
           </button> -->
           <ContactInfo />
-          <span class="inline-flex rounded-md shadow-md ring-1 ring-black ring-opacity-5">
+          <!-- <span class="inline-flex rounded-md shadow-md ring-1 ring-black ring-opacity-5">
             <a href="#" class="inline-flex items-center px-4 py-2 text-base font-medium text-blue-600 bg-white border border-transparent rounded-md hover:bg-gray-50">
               Get started
             </a>
-          </span>
+          </span> -->
+          <button type="button" class="inline-flex items-center px-4 py-2 text-base font-medium text-white bg-blue-700 border border-transparent rounded-md shadow-sm hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-600">
+            Get started
+          </button>
+          <!-- <button type="button" class="inline-flex items-center px-4 py-2 text-base font-medium text-blue-700 bg-blue-100 border border-transparent rounded-md hover:bg-blue-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+            Get started
+          </button> -->
         </div>
       </nav>
 
@@ -234,9 +240,9 @@
           <div class="px-2 pt-2 pb-3 space-y-1">
             <a href="#" class="block px-3 py-2 text-base font-medium text-gray-700 rounded-md hover:text-gray-900 hover:bg-gray-50">Home</a>
 
-            <a href="#" class="block px-3 py-2 text-base font-medium text-gray-700 rounded-md hover:text-gray-900 hover:bg-gray-50">Attorneys</a>
+            <a href="#" class="block px-3 py-2 text-base font-medium text-gray-700 rounded-md hover:text-gray-900 hover:bg-gray-50">Services</a>
 
-            <a href="#" class="block px-3 py-2 text-base font-medium text-gray-700 rounded-md hover:text-gray-900 hover:bg-gray-50">Support</a>
+            <a href="#" class="block px-3 py-2 text-base font-medium text-gray-700 rounded-md hover:text-gray-900 hover:bg-gray-50">Attorneys</a>
 
             <a href="#" class="block px-3 py-2 text-base font-medium text-gray-700 rounded-md hover:text-gray-900 hover:bg-gray-50">Company</a>
           </div>

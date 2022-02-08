@@ -4,7 +4,7 @@
     <div class="px-4 py-16 mx-auto max-w-7xl sm:py-24 sm:px-6 lg:px-8">
       <div class="lg:grid lg:grid-cols-2 lg:gap-8">
         <h2 class="max-w-md mx-auto text-3xl font-extrabold text-center text-blue-900 playfair lg:max-w-xl lg:text-left">
-          Both individuals &amp; businesses alike trust Gear Law with their cases
+          Both individuals &amp; small businesses trust Gear Law with their cases
         </h2>
         <div class="self-center flow-root mt-8 lg:mt-0">
           <div class="flex flex-wrap justify-between -mt-4 -ml-8 lg:-ml-4">
