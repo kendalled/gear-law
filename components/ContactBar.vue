@@ -56,7 +56,7 @@
       <!-- icons w/ info -->
       <div class="flex items-center space-x-4">
         <!-- email -->
-        <span class="items-center hidden space-x-2 group">
+        <span class="flex items-center space-x-2 group">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="inline-block w-5 h-5 text-blue-100 group-hover:text-blue-50"
@@ -72,7 +72,7 @@
             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
             <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
           </svg>
-          <a class="inline-block text-sm text-blue-100 hover:text-blue-50" href="tel:4077168966" target="_blank">407-716-8966</a>
+          <a class="inline-block text-sm text-blue-100 hover:text-blue-50" href="tel:8334568901" target="_blank">+1-833-GEAR-LAW</a>
         </span>
         <!-- phone -->
         <span class="flex items-center space-x-2 group">

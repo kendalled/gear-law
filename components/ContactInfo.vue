@@ -1,6 +1,6 @@
 <template>
   <div class="flex text-left">
-    <span class="items-center hidden pr-4 lg:flex">
+    <span class="items-center hidden pr-4">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         class="w-6 h-6 text-blue-800"

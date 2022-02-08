@@ -72,11 +72,11 @@
         </div>
         <!-- icons w/ info -->
         <div class="flex items-center space-x-4">
-          <!-- email -->
-          <span class="items-center hidden space-x-2 group">
+          <!-- phone -->
+          <span class="flex items-center space-x-2 group">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="inline-block w-5 h-5 text-blue-100 group-hover:text-blue-50"
+              class="inline-block w-5 h-5 text-blue-100 cursor-pointer group-hover:text-blue-50"
               width="44"
               height="44"
               viewBox="0 0 24 24"
@@ -85,17 +85,19 @@
               fill="none"
               stroke-linecap="round"
               stroke-linejoin="round"
+              @click.prevent="togglePhone"
             >
               <path stroke="none" d="M0 0h24v24H0z" fill="none" />
               <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
             </svg>
-            <a class="inline-block text-sm text-blue-100 hover:text-blue-50" href="tel:4077168966" target="_blank">407-716-8966</a>
+            <a class="hidden text-sm text-blue-100 md:inline-block hover:text-blue-50" href="tel:4077168966" target="_blank">407-379-9557</a>
+            <a v-show="phoneOpen" class="text-sm text-blue-100 md:hidden hover:text-blue-50" href="tel:4077168966" target="_blank">407-379-9557</a>
           </span>
           <!-- email -->
           <span class="flex items-center space-x-2 group">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="inline-block w-5 h-5 text-blue-100 group-hover:text-blue-50"
+              class="inline-block w-5 h-5 text-blue-100 cursor-pointer group-hover:text-blue-50"
               width="44"
               height="44"
               viewBox="0 0 24 24"
@@ -267,7 +269,8 @@ export default {
     return {
       emailOpen: false,
       mapOpen: false,
-      mobileOpen: false
+      mobileOpen: false,
+      phoneOpen: true
     }
   },
   methods: {
@@ -279,15 +282,30 @@ export default {
     toggleMobileMenu () {
       this.mobileOpen = !this.mobileOpen
     },
+    togglePhone () {
+      if (this.emailOpen) {
+        this.emailOpen = false
+      }
+      if (this.mapOpen) {
+        this.mapOpen = false
+      }
+      this.phoneOpen = !this.phoneOpen
+    },
     openMap () {
       if (this.emailOpen) {
         this.emailOpen = false
+      }
+      if (this.phoneOpen) {
+        this.phoneOpen = false
       }
       this.mapOpen = !this.mapOpen
     },
     openEmail () {
       if (this.mapOpen) {
         this.mapOpen = false
+      }
+      if (this.phoneOpen) {
+        this.phoneOpen = false
       }
       this.emailOpen = !this.emailOpen
     }
