@@ -15,7 +15,7 @@
               <span class="block text-white">Legal representation</span>
               <span class="block text-blue-200">when you need it most.</span>
             </h1>
-            <p class="mt-6 mr-auto text-xl text-left text-blue-200 max-w-7xl sm:max-w-3xl">
+            <p class="mt-6 mr-auto text-xl text-left text-blue-200 max-w-7xl sm:max-w-2xl">
               Serving the greater Orlando area for over two decades has allowed us to excel in injury law, family law, criminal law, and more. Meet our team of experienced attorneys and schedule a free consultation today.
             </p>
             <div class="max-w-sm mx-auto mt-10 sm:max-w-none sm:flex sm:justify-center">
