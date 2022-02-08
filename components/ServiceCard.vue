@@ -1,5 +1,5 @@
 <template>
-  <div class="relative col-span-1 bg-blue-900 rounded shadow-md cursor-pointer group hover:bg-red-900 h-96 w-96">
+  <div class="relative w-full col-span-1 bg-blue-900 rounded shadow-md cursor-pointer group hover:bg-red-900 h-96 md:w-96">
     <span class="flex items-center justify-start w-full h-full text-gray-200">
       <div class="px-16">
         <slot />

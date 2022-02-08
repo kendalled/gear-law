@@ -1,19 +1,19 @@
 <template>
   <section class="py-12 bg-gray-50">
     <div class="py-6 mx-auto max-w-7xl">
-      <div class="grid grid-cols-3 px-6 pl-12 pr-8">
-        <div class="col-span-2 pt-16">
-          <span class="text-lg font-semibold tracking-wide text-red-900 uppercase">
+      <div class="grid grid-cols-1 px-6 lg:pl-12 lg:pr-8 md:grid-cols-2 lg:grid-cols-3">
+        <div class="col-span-1 pt-16 md:col-span-2">
+          <span class="font-semibold tracking-wide text-red-900 uppercase lg:text-lg">
             Services <span class="tracking-normal">&mdash;&mdash;</span>
           </span>
-          <h1 class="mt-4 text-6xl font-semibold text-blue-900 playfair">
+          <h1 class="mt-4 text-4xl font-semibold text-blue-900 md:text-5xl lg:text-6xl playfair">
             Our Key Practice Areas
           </h1>
           <p class="max-w-xl pr-2 mt-6 text-xl text-gray-600">
             We provide a full array of affordable business law and bankruptcy law services to small and middle market businesses and entrepenuers. We are a full service law firm that provides a comprehensive range of services to help you achieve your goals.
           </p>
         </div>
-        <ServiceCard service1="Financial" service2="Bankruptcy" class="mt-0">
+        <ServiceCard service1="Financial" service2="Bankruptcy" class="mt-6 lg:mt-0">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="w-16 h-16"

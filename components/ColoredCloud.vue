@@ -3,7 +3,7 @@
   <div class="bg-blue-200 bg-opacity-25">
     <div class="px-4 py-16 mx-auto max-w-7xl sm:py-24 sm:px-6 lg:px-8">
       <div class="lg:grid lg:grid-cols-2 lg:gap-8">
-        <h2 class="max-w-md mx-auto text-3xl font-extrabold text-center text-blue-900 playfair lg:max-w-xl lg:text-left">
+        <h2 class="max-w-md mx-auto text-3xl font-extrabold text-blue-900 md:text-center playfair lg:max-w-xl lg:text-left">
           Both individuals &amp; small businesses trust Gear Law with their cases
         </h2>
         <div class="self-center flow-root mt-8 lg:mt-0">

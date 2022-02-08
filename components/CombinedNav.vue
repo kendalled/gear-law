@@ -91,7 +91,7 @@
             </svg>
             <a class="inline-block text-sm text-blue-100 hover:text-blue-50" href="tel:4077168966" target="_blank">407-716-8966</a>
           </span>
-          <!-- phone -->
+          <!-- email -->
           <span class="flex items-center space-x-2 group">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -104,19 +104,21 @@
               fill="none"
               stroke-linecap="round"
               stroke-linejoin="round"
+              @click.prevent="openEmail"
             >
               <path stroke="none" d="M0 0h24v24H0z" fill="none" />
               <rect x="3" y="5" width="18" height="14" rx="2" />
               <polyline points="3 7 12 13 21 7" />
             </svg>
-            <a class="inline-block text-sm text-blue-100 hover:text-blue-50" href="mailto:mike@gear.law" target="_blank">mike@gear.law</a>
+            <a class="hidden text-sm text-blue-100 md:inline-block hover:text-blue-50" href="mailto:mike@gear.law" target="_blank">mike@gear.law</a>
+            <a v-show="emailOpen" class="inline-block text-sm text-blue-100 md:hidden hover:text-blue-50" href="mailto:mike@gear.law" target="_blank">mike@gear.law</a>
           </span>
 
           <!-- location -->
           <span class="flex items-center space-x-2 group">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="inline-block w-5 h-5 text-blue-100 group-hover:text-blue-50"
+              class="inline-block w-5 h-5 text-blue-100 cursor-pointer group-hover:text-blue-50"
               width="44"
               height="44"
               viewBox="0 0 24 24"
@@ -125,12 +127,14 @@
               fill="none"
               stroke-linecap="round"
               stroke-linejoin="round"
+              @click.prevent="openMap"
             >
               <path stroke="none" d="M0 0h24v24H0z" fill="none" />
               <circle cx="12" cy="11" r="3" />
               <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
             </svg>
-            <a class="inline-block text-sm text-blue-100 hover:text-blue-50" href="https://www.google.com/search?q=gear+law+address&oq=gear+law+address&aqs=chrome..69i57j33i160l2.2896j1j7&sourceid=chrome&ie=UTF-8#" target="_blank">1881 Lee Road, Winter Park, FL</a>
+            <a class="hidden text-sm text-blue-100 md:inline-block hover:text-blue-50" href="https://www.google.com/search?q=gear+law+address&oq=gear+law+address&aqs=chrome..69i57j33i160l2.2896j1j7&sourceid=chrome&ie=UTF-8#" target="_blank">1881 Lee Road, Winter Park, FL</a>
+            <a v-show="mapOpen" class="inline-block text-sm text-blue-100 md:hidden hover:text-blue-50" href="https://www.google.com/search?q=gear+law+address&oq=gear+law+address&aqs=chrome..69i57j33i160l2.2896j1j7&sourceid=chrome&ie=UTF-8#" target="_blank">1881 Lee Road, Winter Park, FL</a>
           </span>
         </div>
       </div>
@@ -141,7 +145,8 @@
           <div class="flex items-center justify-between w-full md:w-auto">
             <a href="#">
               <span class="sr-only">Workflow</span>
-              <img class="w-auto h-8 sm:h-14" src="~/static/gear2.svg" alt="Gear Law Logo">
+              <img class="hidden w-auto sm:block h-14 sm:h-14" src="~/static/gear2.svg" alt="Gear Law Logo">
+              <img class="absolute top-0 w-auto -mt-1.5 sm:hidden h-14" src="~/static/gear2.svg" alt="Gear Law Logo">
             </a>
             <div class="flex items-center -mr-2 md:hidden">
               <button type="button" class="inline-flex items-center justify-center p-2 text-gray-400 bg-white rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500" aria-expanded="false">
@@ -260,7 +265,26 @@ export default {
   name: 'CombinedNav',
   data () {
     return {
+      emailOpen: false,
+      mapOpen: false,
       mobileOpen: false
+    }
+  },
+  methods: {
+    toggleMobileMenu () {
+      this.mobileOpen = !this.mobileOpen
+    },
+    openMap () {
+      if (this.emailOpen) {
+        this.emailOpen = false
+      }
+      this.mapOpen = !this.mapOpen
+    },
+    openEmail () {
+      if (this.mapOpen) {
+        this.mapOpen = false
+      }
+      this.emailOpen = !this.emailOpen
     }
   }
 }
