@@ -13,7 +13,7 @@
           <div class="relative px-4 py-16 mx-auto max-w-7xl sm:px-6 sm:py-24 lg:py-40 lg:px-8">
             <h1 class="text-4xl font-extrabold tracking-wide text-left sm:text-5xl lg:text-6xl">
               <span class="block text-white">Legal representation</span>
-              <span class="block text-blue-200">when you need it most.</span>
+              <span class="block text-blue-200">you can count on.</span>
             </h1>
             <p class="mt-6 mr-auto text-xl text-left text-blue-200 max-w-7xl sm:max-w-2xl">
               Serving the greater Orlando area for over two decades has allowed us to excel in injury law, family law, criminal law, and more. Meet our team of experienced attorneys and schedule a free consultation today.
