@@ -18,7 +18,7 @@
   <section class="relative bg-white" aria-labelledby="contact-heading">
     <div class="absolute w-full h-1/2 bg-warm-gray-50" aria-hidden="true" />
     <!-- Decorative dot pattern -->
-    <div class="relative px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+    <div class="absolute px-4 mx-auto md:relative max-w-7xl sm:px-6 lg:px-8">
       <svg
         class="absolute top-0 right-0 z-0 transform translate-x-1/2 -translate-y-16 sm:translate-x-1/4 md:-translate-y-24 lg:-translate-y-72"
         width="404"
