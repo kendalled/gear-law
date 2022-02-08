@@ -190,14 +190,14 @@
             407-716-8966
           </button> -->
           <ContactInfo />
-          <!-- <span class="inline-flex rounded-md shadow-md ring-1 ring-black ring-opacity-5">
+          <span class="inline-flex rounded-md shadow-md ring-1 ring-black ring-opacity-5">
             <a href="#" class="inline-flex items-center px-4 py-2 text-base font-medium text-blue-600 bg-white border border-transparent rounded-md hover:bg-gray-50">
               Get started
             </a>
-          </span> -->
-          <button type="button" class="inline-flex items-center px-4 py-2 text-base font-medium text-white bg-blue-700 border border-transparent rounded-md shadow-sm hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-600">
+          </span>
+          <!-- <button type="button" class="inline-flex items-center px-4 py-2 text-base font-medium text-white bg-blue-700 border border-transparent rounded-md shadow-sm hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-600">
             Get started
-          </button>
+          </button> -->
           <!-- <button type="button" class="inline-flex items-center px-4 py-2 text-base font-medium text-blue-700 bg-blue-100 border border-transparent rounded-md hover:bg-blue-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
             Get started
           </button> -->
