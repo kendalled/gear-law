@@ -168,9 +168,9 @@
           <div class="hidden md:block md:ml-10 md:space-x-10">
             <a href="#" class="font-medium text-gray-500 hover:text-gray-900">Home</a>
 
-            <a href="#" class="font-medium text-gray-500 hover:text-gray-900">Services</a>
+            <a class="font-medium text-gray-500 cursor-pointer hover:text-gray-900" @click.prevent="scrollTo('services')">Services</a>
 
-            <a href="#" class="font-medium text-gray-500 hover:text-gray-900">Attorneys</a>
+            <a class="font-medium text-gray-500 cursor-pointer hover:text-gray-900" @click.prevent="scrollTo('attorneys')">Attorneys</a>
 
             <a href="#" class="font-medium text-gray-500 hover:text-gray-900">Company</a>
           </div>
@@ -271,6 +271,11 @@ export default {
     }
   },
   methods: {
+    scrollTo (elem) {
+      if (process.browser) {
+        document.getElementById(elem).scrollIntoView({ behavior: 'smooth', block: 'center' })
+      }
+    },
     toggleMobileMenu () {
       this.mobileOpen = !this.mobileOpen
     },

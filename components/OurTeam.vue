@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-50">
+  <section id="attorneys" class="bg-gray-50">
     <div class="px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:px-8 lg:py-24">
       <div class="space-y-12">
         <div class="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
@@ -59,7 +59,7 @@
         </ul>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
