@@ -21,10 +21,10 @@
         <p class="ml-2 text-sm text-gray-600">Toll free: 407-379-9557</p>
       </div>
     </span>
-    <!-- <span class="flex items-center px-4 border-l-2">
+    <span class="items-center hidden px-4 border-l-2 lg:flex">
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        class="text-blue-700 h-7 w-7"
+        class="w-6 h-6 text-blue-800"
         width="44"
         height="44"
         viewBox="0 0 24 24"
@@ -42,7 +42,7 @@
         <p class="ml-2 text-sm font-semibold text-gray-800">Mon - Fri, 9:00 - 6:00</p>
         <p class="ml-2 text-sm text-gray-600">Sat: 10:00 - 6:00, Sun: Closed</p>
       </div>
-    </span> -->
+    </span>
   </div>
 </template>
 
