@@ -3,8 +3,8 @@
     <div class="px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:px-8 lg:py-24">
       <div class="space-y-12">
         <div class="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
-          <h2 class="text-base font-semibold tracking-wider text-blue-600 uppercase">
-            get introduced
+          <h2 class="text-base font-semibold tracking-wider text-red-800 uppercase">
+            get introduced <span class="tracking-normal">&mdash;&mdash;</span>
           </h2>
           <h3 class="mt-2 text-3xl font-extrabold tracking-tight text-gray-800 playfair sm:text-4xl">
             Meet our team of experienced attorneys

@@ -19,6 +19,17 @@
     <div class="absolute w-full h-1/2 bg-warm-gray-50" aria-hidden="true" />
     <!-- Decorative dot pattern -->
     <div class="absolute px-4 mx-auto md:relative max-w-7xl sm:px-6 lg:px-8">
+      <div class="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
+        <h2 class="text-base font-semibold tracking-wider text-red-800 uppercase">
+          get started <span class="tracking-normal">&mdash;&mdash;</span>
+        </h2>
+        <h3 class="mt-2 text-3xl font-extrabold tracking-tight text-gray-800 playfair sm:text-4xl">
+          Schedule your free consultation in minutes
+        </h3>
+        <p class="text-xl text-gray-600">
+          With over five decades of combined experience on your side, one of our experienced attorneys will fight tirelessly for your case.
+        </p>
+      </div>
       <svg
         class="absolute top-0 right-0 z-0 transform translate-x-1/2 -translate-y-16 sm:translate-x-1/4 md:-translate-y-24 lg:-translate-y-72"
         width="404"
@@ -49,7 +60,7 @@
         <rect width="404" height="384" fill="url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)" />
       </svg>
     </div>
-    <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+    <div class="px-4 mx-auto mt-12 max-w-7xl sm:px-6 lg:px-8">
       <div class="relative bg-white shadow-xl rounded-b-md lg:rounded-r-md">
         <h2 id="contact-heading" class="sr-only">
           Contact us

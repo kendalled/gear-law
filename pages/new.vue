@@ -4,6 +4,7 @@
     <AngledHero />
     <ColoredCloud />
     <Services />
+    <PrettyCta />
   </main>
 </template>
 

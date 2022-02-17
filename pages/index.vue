@@ -11,7 +11,7 @@
             <div class="absolute inset-0 bg-gradient-to-r from-blue-600 to-blue-900 mix-blend-multiply" />
           </div>
           <div class="relative px-4 py-16 mx-auto max-w-7xl sm:px-6 sm:py-24 lg:py-40 lg:px-8">
-            <h1 class="text-4xl font-extrabold tracking-wide text-left sm:text-5xl lg:text-6xl">
+            <h1 class="text-4xl font-extrabold text-left sm:tracking-wide sm:text-5xl lg:text-6xl">
               <span class="block text-white">Legal representation</span>
               <span class="block text-blue-200">you can count on.</span>
             </h1>
