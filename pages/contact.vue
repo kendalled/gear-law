@@ -12,7 +12,7 @@
               <img class="w-auto h-8 sm:h-16" src="~/static/gear2.svg" alt="">
             </a>
             <div class="flex items-center -mr-2 lg:hidden">
-              <button type="button" class="inline-flex items-center justify-center p-2 text-gray-400 rounded-md bg-gray-50 hover:bg-gray-100 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-grape-500" aria-expanded="false">
+              <button type="button" class="inline-flex items-center justify-center p-2 text-gray-400 rounded-md bg-gray-50 hover:bg-gray-100 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-blue-500" aria-expanded="false">
                 <span class="sr-only">Open main menu</span>
                 <!-- Heroicon name: outline/menu -->
                 <svg
@@ -38,7 +38,7 @@
             <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-600">Blog</a>
           </div>
           <div class="hidden lg:flex lg:items-center lg:space-x-6">
-            <a href="#" class="px-6 py-2 text-base font-medium bg-white border border-transparent rounded-md shadow-md text-grape-600 hover:bg-gray-50"> Contact </a>
+            <a href="#" class="px-6 py-2 text-base font-medium text-blue-600 bg-white border border-transparent rounded-md shadow-md hover:bg-gray-50"> Contact </a>
           </div>
         </nav>
       </div>
@@ -60,7 +60,7 @@
               <img class="w-auto h-8" src="~/static/gear2.svg" alt="">
             </div>
             <div class="-mr-2">
-              <button type="button" class="inline-flex items-center justify-center p-2 text-gray-400 bg-white rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-grape-500">
+              <button type="button" class="inline-flex items-center justify-center p-2 text-gray-400 bg-white rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500">
                 <span class="sr-only">Close menu</span>
                 <!-- Heroicon name: outline/x -->
                 <svg
@@ -87,7 +87,7 @@
               <a href="#" class="block px-3 py-2 text-base font-medium text-gray-900 rounded-md hover:bg-gray-50">Blog</a>
             </div>
             <div class="px-5 mt-6">
-              <a href="#" class="block w-full px-4 py-2 font-medium text-center text-white border border-transparent rounded-md shadow bg-grape-500 hover:bg-grape-600">Contact</a>
+              <a href="#" class="block w-full px-4 py-2 font-medium text-center text-white bg-blue-500 border border-transparent rounded-md shadow hover:bg-blue-600">Contact</a>
             </div>
           </div>
         </div>
@@ -127,25 +127,25 @@
                 <div>
                   <label for="first-name" class="block text-sm font-medium text-gray-700">First name</label>
                   <div class="mt-1">
-                    <input id="first-name" type="text" name="first-name" autocomplete="given-name" class="block w-full border-gray-300 rounded-md shadow-sm sm:text-sm focus:ring-grape-500 focus:border-grape-500">
+                    <input id="first-name" type="text" name="first-name" autocomplete="given-name" class="block w-full border-gray-300 rounded-md shadow-sm sm:text-sm focus:ring-blue-500 focus:border-blue-500">
                   </div>
                 </div>
                 <div>
                   <label for="last-name" class="block text-sm font-medium text-gray-700">Last name</label>
                   <div class="mt-1">
-                    <input id="last-name" type="text" name="last-name" autocomplete="family-name" class="block w-full border-gray-300 rounded-md shadow-sm sm:text-sm focus:ring-grape-500 focus:border-grape-500">
+                    <input id="last-name" type="text" name="last-name" autocomplete="family-name" class="block w-full border-gray-300 rounded-md shadow-sm sm:text-sm focus:ring-blue-500 focus:border-blue-500">
                   </div>
                 </div>
                 <div class="sm:col-span-2">
                   <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
                   <div class="mt-1">
-                    <input id="email" name="email" type="email" autocomplete="email" class="block w-full border-gray-300 rounded-md shadow-sm sm:text-sm focus:ring-grape-500 focus:border-grape-500">
+                    <input id="email" name="email" type="email" autocomplete="email" class="block w-full border-gray-300 rounded-md shadow-sm sm:text-sm focus:ring-blue-500 focus:border-blue-500">
                   </div>
                 </div>
                 <div class="sm:col-span-2">
                   <label for="company" class="block text-sm font-medium text-gray-700">Company</label>
                   <div class="mt-1">
-                    <input id="company" type="text" name="company" autocomplete="organization" class="block w-full border-gray-300 rounded-md shadow-sm sm:text-sm focus:ring-grape-500 focus:border-grape-500">
+                    <input id="company" type="text" name="company" autocomplete="organization" class="block w-full border-gray-300 rounded-md shadow-sm sm:text-sm focus:ring-blue-500 focus:border-blue-500">
                   </div>
                 </div>
                 <div class="sm:col-span-2">
@@ -160,7 +160,7 @@
                       name="phone"
                       autocomplete="tel"
                       aria-describedby="phone-description"
-                      class="block w-full border-gray-300 rounded-md shadow-sm sm:text-sm focus:ring-grape-500 focus:border-grape-500"
+                      class="block w-full border-gray-300 rounded-md shadow-sm sm:text-sm focus:ring-blue-500 focus:border-blue-500"
                     >
                   </div>
                 </div>
@@ -170,7 +170,7 @@
                     <span id="how-can-we-help-description" class="text-sm text-gray-500">Max. 500 characters</span>
                   </div>
                   <div class="mt-1">
-                    <textarea id="how-can-we-help" name="how-can-we-help" aria-describedby="how-can-we-help-description" rows="4" class="block w-full border border-gray-300 rounded-md shadow-sm sm:text-sm focus:ring-grape-500 focus:border-grape-500" />
+                    <textarea id="how-can-we-help" name="how-can-we-help" aria-describedby="how-can-we-help-description" rows="4" class="block w-full border border-gray-300 rounded-md shadow-sm sm:text-sm focus:ring-blue-500 focus:border-blue-500" />
                   </div>
                 </div>
                 <fieldset class="sm:col-span-2">
@@ -179,25 +179,25 @@
                   </legend>
                   <div class="grid grid-cols-1 mt-4 gap-y-4">
                     <div class="flex items-center">
-                      <input id="budget-under-25k" name="budget" value="under_25k" type="radio" class="w-4 h-4 border-gray-300 focus:ring-grape-500 text-grape-600">
+                      <input id="budget-under-25k" name="budget" value="under_25k" type="radio" class="w-4 h-4 text-blue-600 border-gray-300 focus:ring-blue-500">
                       <label for="budget-under-25k" class="ml-3">
                         <span class="block text-sm text-gray-700">Less than $25K</span>
                       </label>
                     </div>
                     <div class="flex items-center">
-                      <input id="budget-25k-50k" name="budget" value="25k-50k" type="radio" class="w-4 h-4 border-gray-300 focus:ring-grape-500 text-grape-600">
+                      <input id="budget-25k-50k" name="budget" value="25k-50k" type="radio" class="w-4 h-4 text-blue-600 border-gray-300 focus:ring-blue-500">
                       <label for="budget-25k-50k" class="ml-3">
                         <span class="block text-sm text-gray-700">$25K – $50K</span>
                       </label>
                     </div>
                     <div class="flex items-center">
-                      <input id="budget-50k-100k" name="budget" value="50k-100k" type="radio" class="w-4 h-4 border-gray-300 focus:ring-grape-500 text-grape-600">
+                      <input id="budget-50k-100k" name="budget" value="50k-100k" type="radio" class="w-4 h-4 text-blue-600 border-gray-300 focus:ring-blue-500">
                       <label for="budget-50k-100k" class="ml-3">
                         <span class="block text-sm text-gray-700">$50K – $100K</span>
                       </label>
                     </div>
                     <div class="flex items-center">
-                      <input id="budget-over-100k" name="budget" value="over_100k" type="radio" class="w-4 h-4 border-gray-300 focus:ring-grape-500 text-grape-600">
+                      <input id="budget-over-100k" name="budget" value="over_100k" type="radio" class="w-4 h-4 text-blue-600 border-gray-300 focus:ring-blue-500">
                       <label for="budget-over-100k" class="ml-3">
                         <span class="block text-sm text-gray-700">$100K+</span>
                       </label>
@@ -207,11 +207,11 @@
                 <div class="sm:col-span-2">
                   <label for="how-did-you-hear-about-us" class="block text-sm font-medium text-gray-700">How did you hear about us?</label>
                   <div class="mt-1">
-                    <input id="how-did-you-hear-about-us" type="text" name="how-did-you-hear-about-us" class="block w-full border-gray-300 rounded-md shadow-sm focus:ring-grape-500 focus:border-grape-500 sm:text-sm">
+                    <input id="how-did-you-hear-about-us" type="text" name="how-did-you-hear-about-us" class="block w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
                   </div>
                 </div>
                 <div class="text-right sm:col-span-2">
-                  <button type="submit" class="inline-flex justify-center px-4 py-2 text-sm font-medium text-white border border-transparent rounded-md shadow-sm bg-grape-600 hover:bg-grape-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-grape-500">
+                  <button type="submit" class="inline-flex justify-center px-4 py-2 text-sm font-medium text-white bg-blue-600 border border-transparent rounded-md shadow-sm hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
                     Submit
                   </button>
                 </div>
@@ -222,13 +222,13 @@
       </div>
 
       <!-- CTA Section -->
-      <div class="bg-grape-400">
+      <div class="bg-blue-400">
         <div class="max-w-md px-4 py-16 mx-auto text-center sm:max-w-2xl sm:py-24 sm:px-6 lg:px-8 lg:py-32">
           <h2 class="text-3xl font-extrabold sm:text-4xl">
             <span class="block text-white">Looking for a new career?</span>
-            <span class="block text-grape-900">We’re hiring.</span>
+            <span class="block text-blue-900">We’re hiring.</span>
           </h2>
-          <a href="#" class="inline-flex items-center justify-center w-full px-5 py-3 mt-8 text-base font-medium bg-white border border-transparent rounded-md shadow-md text-grape-600 hover:bg-grape-50 sm:w-auto">
+          <a href="#" class="inline-flex items-center justify-center w-full px-5 py-3 mt-8 text-base font-medium text-blue-600 bg-white border border-transparent rounded-md shadow-md hover:bg-blue-50 sm:w-auto">
             <span>See open positions</span>
             <!-- Heroicon name: solid/external-link -->
             <svg class="flex-shrink-0 w-5 h-5 ml-3 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
