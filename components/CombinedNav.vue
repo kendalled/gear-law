@@ -90,8 +90,8 @@
               <path stroke="none" d="M0 0h24v24H0z" fill="none" />
               <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
             </svg>
-            <a class="hidden text-sm text-blue-100 md:inline-block hover:text-blue-50" href="tel:4077168966" target="_blank">407-379-9557</a>
-            <a v-show="phoneOpen" class="text-sm text-blue-100 md:hidden hover:text-blue-50" href="tel:4077168966" target="_blank">407-379-9557</a>
+            <a class="hidden text-sm text-blue-100 md:inline-block hover:text-blue-50" href="tel:4073799557" target="_blank">407-379-9557</a>
+            <a v-show="phoneOpen" class="text-sm text-blue-100 md:hidden hover:text-blue-50" href="tel:4073799557" target="_blank">407-379-9557</a>
           </span>
           <!-- email -->
           <span class="flex items-center space-x-2 group">
