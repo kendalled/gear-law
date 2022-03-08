@@ -87,7 +87,7 @@
               <a href="#" class="block px-3 py-2 text-base font-medium text-gray-900 rounded-md hover:bg-gray-50">Blog</a>
             </div>
             <div class="px-5 mt-6">
-              <a href="#" class="block w-full px-4 py-2 font-medium text-center text-white bg-blue-500 border border-transparent rounded-md shadow hover:bg-blue-600">Contact</a>
+              <a href="#" class="block w-full px-4 py-2 font-medium text-center text-white bg-blue-500 border border-transparent rounded-md shadow hover:bg-blue-600">Contact us</a>
             </div>
           </div>
         </div>
