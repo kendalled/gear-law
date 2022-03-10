@@ -92,7 +92,13 @@
 
 <script>
 export default {
-  layout: 'default'
+  layout: 'default',
+  head() {
+    return {
+      title: 'Gagnon, Eisele & Rigby Attorneys: Full Service Orlando Law Firm',
+      description: 'Gagnon, Eisele & Rigby Attorneys Serving Orlando & Central Florida for over 10 years. Hire us your not hiring just a attorney but a team that collaborates, to achieve the absolute best out come for our clients cases.'
+    }
+  }
 }
 </script>
 
