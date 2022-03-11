@@ -142,7 +142,8 @@
       </div>
     </div>
     <div class="py-2 bg-white">
-      <nav class="relative flex items-center justify-between px-4 mx-auto max-w-7xl sm:px-6" aria-label="Global">
+      <!-- was: relative flex -->
+      <nav class="items-center justify-between hidden px-4 mx-auto max-w-7xl sm:px-6" aria-label="Global">
         <div class="flex items-center flex-1">
           <div class="flex items-center justify-between w-full md:w-auto">
             <a href="#">
@@ -210,6 +211,7 @@
           </button> -->
         </div>
       </nav>
+      <!-- end was -->
 
       <!--
         Mobile menu, show/hide based on menu open state.
