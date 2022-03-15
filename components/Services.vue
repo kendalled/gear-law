@@ -1,7 +1,7 @@
 <template>
   <section id="services" class="py-12 bg-gray-50">
-    <div class="py-6 mx-auto max-w-7xl">
-      <div class="grid grid-cols-1 px-6 lg:pl-12 lg:pr-8 md:grid-cols-2 lg:grid-cols-3">
+    <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         <div class="col-span-1 pt-16 md:col-span-2">
           <span class="font-semibold tracking-wide text-blue-700 uppercase">
             Services <span class="tracking-normal">&mdash;&mdash;</span>
@@ -111,9 +111,3 @@ export default {
   name: 'Services'
 }
 </script>
-
-<style>
-.playfair {
-  font-family: 'Playfair Display', sans-serif, -apple-system
-}
-</style>

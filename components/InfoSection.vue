@@ -1,12 +1,12 @@
 <template>
   <!-- Feature section with screenshot was:pt instead of py was lg:py-32 -->
-  <div class="relative py-16 bg-gray-50 sm:py-24 lg:pb-14">
+  <div class="relative py-16 bg-gray-50 sm:py-24 lg:pb-12">
     <div class="max-w-md px-4 mx-auto text-center sm:px-6 sm:max-w-3xl lg:px-8 lg:max-w-7xl">
       <div>
         <h2 style="letter-spacing: 0.03em;" class="text-base font-semibold tracking-wider text-blue-600 uppercase">
           simplify your case
         </h2>
-        <p class="mt-2 text-3xl font-extrabold tracking-tight text-gray-900 playfair sm:text-4xl">
+        <p class="mt-2 text-3xl font-extrabold tracking-tight text-gray-800 playfair sm:text-4xl">
           No lawyer? No problem.
         </p>
         <p class="mx-auto mt-5 text-xl text-gray-500 max-w-prose">
@@ -14,10 +14,10 @@
         </p>
       </div>
       <!-- was lg:-mb-80 -->
-      <div class="grid grid-cols-1 mt-8 md:grid-cols-2">
-        <img class="col-span-1 rounded-lg shadow-xl ring-1 ring-black ring-opacity-5" src="~/static/team.jpg" alt="Meeting photo">
-        <span class="col-span-1 text-left">
-          <p class="py-8 text-lg font-medium text-gray-600 lg:mt-2">
+      <div class="mt-12 lg:grid lg:grid-cols-7">
+        <img class="w-full h-auto col-span-3 rounded-lg shadow-xl ring-1 ring-black ring-opacity-5" src="~/static/wholeteam.jpeg" alt="Meeting photo">
+        <span class="flex flex-col w-full col-span-4 mt-6 text-left lg:mt-0 lg:px-8 lg:justify-center lg:items-center">
+          <p class="pb-4 text-lg font-medium text-gray-600 lg:pb-8">
             We collect evidence, secure witnesses, employ effective strategies, research and prepare your documents and pleadings, as well as protect your rights against those who wish to bring harm to you or minimize your claim. Take a look at our countless testimonials below.
           </p>
           <div class="pt-6 border-t border-gray-200">

@@ -15,12 +15,12 @@
   }
   ```
 -->
-  <section class="relative bg-white" aria-labelledby="contact-heading">
+  <section class="relative pb-12 bg-white" aria-labelledby="contact-heading">
     <div class="absolute w-full h-1/2 bg-warm-gray-50" aria-hidden="true" />
     <!-- Decorative dot pattern -->
-    <div class="absolute px-4 mx-auto md:relative max-w-7xl sm:px-6 lg:px-8">
+    <div class="absolute px-4 mx-auto mt-24 md:relative max-w-7xl sm:px-6 lg:px-8">
       <div class="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
-        <h2 class="text-base font-semibold tracking-wider text-red-800 uppercase">
+        <h2 class="text-base font-semibold tracking-wider text-blue-800 uppercase">
           get started <span class="tracking-normal">&mdash;&mdash;</span>
         </h2>
         <h3 class="mt-2 text-3xl font-extrabold tracking-tight text-gray-800 playfair sm:text-4xl">
@@ -309,9 +309,3 @@ export default {
   components: { CustomSelect }
 }
 </script>
-
-<style scoped>
-input[type=text] {
-  @apply block w-full px-4 py-3 text-gray-900 border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500;
-}
-</style>

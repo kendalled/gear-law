@@ -1,7 +1,7 @@
 <template>
   <div class="relative bg-gray-900">
     <div class="relative h-56 bg-blue-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
-      <img class="object-cover w-full h-full" src="https://images.unsplash.com/photo-1568092806323-8ec13dfa9b92?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&q=60&sat=-100" alt="">
+      <img class="object-cover w-full h-full" src="wholeteam.jpeg" alt="">
       <div aria-hidden="true" class="absolute inset-0 bg-gradient-to-r from-blue-500 to-blue-600 mix-blend-multiply" />
     </div>
     <div class="relative max-w-md px-4 py-12 mx-auto sm:max-w-7xl sm:px-6 sm:py-20 md:py-28 lg:px-8 lg:py-32">
@@ -9,7 +9,7 @@
         <h2 class="text-base font-semibold tracking-wider text-gray-300 uppercase">
           Award winning lawyers
         </h2>
-        <p class="mt-2 text-3xl font-extrabold tracking-tight text-white playfair sm:text-4xl">
+        <p class="mt-2 text-3xl font-bold tracking-tight text-gray-50 playfair sm:text-4xl">
           We’re here to help
         </p>
         <p class="mt-3 text-lg text-gray-300">

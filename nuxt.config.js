@@ -42,7 +42,7 @@ export default {
   googleFonts: {
     // display: 'swap',
     families: {
-      'Playfair Display': true
+      'Playfair Display': [100, 200, 300, 400, 500, 600, 700, 800, 900]
       // Lato: [100, 300],
       // Raleway: {
       //   wght: [100, 400],
