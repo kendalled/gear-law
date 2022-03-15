@@ -58,9 +58,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-h1, .playfair {
-  font-family: 'Playfair Display', sans-serif, -apple-system
-}
-</style>
