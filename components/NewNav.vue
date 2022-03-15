@@ -328,7 +328,7 @@
           </nav>
           <div class="items-center justify-end hidden md:flex md:flex-1 lg:w-0">
             <a href="#" class="text-base font-medium text-gray-500 whitespace-nowrap hover:text-gray-900"> Sign in </a>
-            <a href="#" class="inline-flex items-center justify-center px-4 py-2 ml-8 text-base font-medium text-white bg-blue-600 border border-transparent rounded-md shadow-sm whitespace-nowrap hover:bg-blue-700"> Sign up </a>
+            <a href="#" class="inline-flex items-center justify-center px-4 py-2 ml-8 text-base font-medium text-white bg-blue-600 border border-transparent rounded-md shadow-sm whitespace-nowrap hover:bg-blue-700"> Contact us </a>
           </div>
         </div>
       </div>
@@ -461,7 +461,7 @@
               <a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700"> Security </a>
             </div>
             <div>
-              <a href="#" class="flex items-center justify-center w-full px-4 py-2 text-base font-medium text-white bg-blue-600 border border-transparent rounded-md shadow-sm hover:bg-blue-700"> Sign up </a>
+              <a href="#" class="flex items-center justify-center w-full px-4 py-2 text-base font-medium text-white bg-blue-600 border border-transparent rounded-md shadow-sm hover:bg-blue-700"> Contact us </a>
               <p class="mt-6 text-base font-medium text-center text-gray-500">
                 Existing customer?
                 <a href="#" class="text-blue-600 hover:text-blue-500"> Sign in </a>
