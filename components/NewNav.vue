@@ -9,7 +9,7 @@
             <!-- todo: more elegant solution? -->
             <a href="#" class="mr-24">
               <span class="sr-only">Gear Law</span>
-              <img class="absolute w-auto h-8 top-3 sm:h-16" src="~/static/gear2.svg" alt="">
+              <img class="absolute w-auto h-12 top-3 md:h-16" src="~/static/gear2.svg" alt="">
             </a>
           </div>
           <div class="-my-2 -mr-2 md:hidden">
@@ -343,7 +343,7 @@
         From: "opacity-100 scale-100"
         To: "opacity-0 scale-95"
     -->
-      <div class="absolute inset-x-0 top-0 z-10 p-2 transition origin-top-right transform md:hidden">
+      <div v-show="mobileOpen" class="absolute inset-x-0 top-0 z-10 p-2 transition origin-top-right transform md:hidden">
         <div class="bg-white divide-y-2 rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 divide-gray-50">
           <div class="px-5 pt-5 pb-6">
             <div class="flex items-center justify-between">
@@ -479,6 +479,7 @@ export default {
   name: 'NewNav',
   data () {
     return {
+      mobileOpen: false,
       servicesOpen: false,
       moreOpen: false
     }

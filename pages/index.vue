@@ -11,7 +11,7 @@
             <img class="object-cover w-full h-full" src="https://images.unsplash.com/photo-1566933293069-b55c7f326dd4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=70&sat=-100" alt="People working on laptops">
             <div class="absolute inset-0 bg-gradient-to-r from-blue-600 to-blue-900 mix-blend-multiply" />
           </div>
-          <div class="relative px-4 py-16 mx-auto max-w-7xl sm:px-6 sm:py-24 lg:py-40 lg:px-8">
+          <div class="relative px-4 py-16 mx-auto max-w-7xl sm:px-6 sm:py-24 lg:py-48 lg:px-8">
             <h1 class="text-4xl font-extrabold text-left sm:tracking-wide sm:text-5xl lg:text-6xl">
               <span class="block text-white">Legal representation</span>
               <span class="block text-blue-200">you can count on.</span>
@@ -33,15 +33,14 @@
         </div>
       </div>
     </div>
-    <ColoredCloud />
-    <Services />
     <InfoSection />
     <LogoCloud />
+    <Services />
     <CheckList />
     <Testimonial />
     <OurTeam />
     <!-- <ColoredCta /> -->
-    <ContactForm class="mb-12" />
+    <ContactForm class="mb-12 overflow-x-hidden" />
     <!-- CTA Section -->
     <BlackCta />
     <CustomFooter />
@@ -62,6 +61,6 @@ export default {
 
 <style scoped>
 h1, .playfair {
-  font-family: 'Source Serif Pro', sans-serif, -apple-system
+  font-family: 'Playfair Display', sans-serif, -apple-system
 }
 </style>

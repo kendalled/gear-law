@@ -128,6 +128,42 @@
 
 <script>
 export default {
-  name: 'BlueBar'
+  name: 'BlueBar',
+  data () {
+    return {
+      emailOpen: false,
+      mapOpen: false,
+      phoneOpen: false
+    }
+  },
+  methods: {
+    togglePhone () {
+      if (this.emailOpen) {
+        this.emailOpen = false
+      }
+      if (this.mapOpen) {
+        this.mapOpen = false
+      }
+      this.phoneOpen = !this.phoneOpen
+    },
+    openMap () {
+      if (this.emailOpen) {
+        this.emailOpen = false
+      }
+      if (this.phoneOpen) {
+        this.phoneOpen = false
+      }
+      this.mapOpen = !this.mapOpen
+    },
+    openEmail () {
+      if (this.mapOpen) {
+        this.mapOpen = false
+      }
+      if (this.phoneOpen) {
+        this.phoneOpen = false
+      }
+      this.emailOpen = !this.emailOpen
+    }
+  }
 }
 </script>

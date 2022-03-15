@@ -1,6 +1,6 @@
 <template>
   <!-- Feature section with screenshot was:pt instead of py was lg:py-32 -->
-  <div class="relative py-16 bg-gray-50 sm:py-24 lg:pt-8 lg:pb-14">
+  <div class="relative py-16 bg-gray-50 sm:py-24 lg:pb-14">
     <div class="max-w-md px-4 mx-auto text-center sm:px-6 sm:max-w-3xl lg:px-8 lg:max-w-7xl">
       <div>
         <h2 style="letter-spacing: 0.03em;" class="text-base font-semibold tracking-wider text-blue-600 uppercase">

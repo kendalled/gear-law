@@ -16,6 +16,6 @@ export default {
 
 <style>
 .playfair {
-  font-family: 'Source Serif Pro', sans-serif, -apple-system
+  font-family: 'Playfair Display', sans-serif, -apple-system
 }
 </style>

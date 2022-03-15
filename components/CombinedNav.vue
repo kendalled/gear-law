@@ -269,10 +269,7 @@ export default {
   name: 'CombinedNav',
   data () {
     return {
-      emailOpen: false,
-      mapOpen: false,
-      mobileOpen: false,
-      phoneOpen: false
+      mobileOpen: false
     }
   },
   methods: {
@@ -283,33 +280,6 @@ export default {
     },
     toggleMobileMenu () {
       this.mobileOpen = !this.mobileOpen
-    },
-    togglePhone () {
-      if (this.emailOpen) {
-        this.emailOpen = false
-      }
-      if (this.mapOpen) {
-        this.mapOpen = false
-      }
-      this.phoneOpen = !this.phoneOpen
-    },
-    openMap () {
-      if (this.emailOpen) {
-        this.emailOpen = false
-      }
-      if (this.phoneOpen) {
-        this.phoneOpen = false
-      }
-      this.mapOpen = !this.mapOpen
-    },
-    openEmail () {
-      if (this.mapOpen) {
-        this.mapOpen = false
-      }
-      if (this.phoneOpen) {
-        this.phoneOpen = false
-      }
-      this.emailOpen = !this.emailOpen
     }
   }
 }

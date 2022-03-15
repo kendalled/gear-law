@@ -42,7 +42,7 @@ export default {
   googleFonts: {
     // display: 'swap',
     families: {
-      'Source Serif Pro': true
+      'Playfair Display': true
       // Lato: [100, 300],
       // Raleway: {
       //   wght: [100, 400],

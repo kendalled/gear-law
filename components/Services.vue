@@ -3,10 +3,10 @@
     <div class="py-6 mx-auto max-w-7xl">
       <div class="grid grid-cols-1 px-6 lg:pl-12 lg:pr-8 md:grid-cols-2 lg:grid-cols-3">
         <div class="col-span-1 pt-16 md:col-span-2">
-          <span class="font-semibold tracking-wide text-red-900 uppercase lg:text-lg">
+          <span class="font-semibold tracking-wide text-blue-700 uppercase">
             Services <span class="tracking-normal">&mdash;&mdash;</span>
           </span>
-          <h1 class="mt-4 text-4xl font-semibold text-blue-900 md:text-5xl lg:text-6xl playfair">
+          <h1 class="mt-4 text-4xl font-semibold text-gray-900 md:text-5xl playfair">
             Our Key Practice Areas
           </h1>
           <p class="max-w-xl pr-2 mt-6 text-xl text-gray-600">
@@ -114,6 +114,6 @@ export default {
 
 <style>
 .playfair {
-  font-family: 'Source Serif Pro', sans-serif, -apple-system
+  font-family: 'Playfair Display', sans-serif, -apple-system
 }
 </style>
