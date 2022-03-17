@@ -4,9 +4,7 @@
   <div class="bg-white">
     <div class="px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:py-24 lg:px-8 lg:grid lg:grid-cols-3 lg:gap-x-8">
       <div>
-        <h2 class="text-base font-semibold tracking-wide text-blue-600 uppercase">
-          Everything you need
-        </h2>
+        <SubText :text="'everything you need'" />
         <p class="mt-2 text-3xl font-extrabold text-gray-800 playfair">
           Feel confident in the courtroom.
         </p>

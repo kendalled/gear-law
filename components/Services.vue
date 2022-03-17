@@ -3,10 +3,8 @@
     <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         <div class="col-span-1 pt-16 md:col-span-2">
-          <span class="font-semibold tracking-wide text-blue-700 uppercase">
-            Services <span class="tracking-normal">&mdash;&mdash;</span>
-          </span>
-          <h1 class="mt-4 text-4xl font-semibold text-gray-900 md:text-5xl playfair">
+          <SubText :text="'legal services'" />
+          <h1 class="mt-2 text-4xl font-semibold text-gray-900 md:text-5xl playfair">
             Our Key Practice Areas
           </h1>
           <p class="max-w-xl pr-2 mt-6 text-xl text-gray-600">

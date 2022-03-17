@@ -17,8 +17,9 @@
 -->
   <div class="bg-gray-50">
     <div class="px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:px-8 lg:pb-24 lg:pt-16">
+      <SubText :text="'get introduced'" />
       <div class="space-y-12">
-        <h2 class="text-3xl font-extrabold tracking-tight text-gray-800 playfair sm:text-4xl">
+        <h2 class="mt-2 text-3xl font-extrabold tracking-tight text-gray-800 playfair sm:text-4xl">
           Meet our experienced team
         </h2>
 
@@ -38,7 +39,7 @@
                   </div>
                   <div class="text-lg">
                     <p class="text-gray-500">
-                      Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.
+                      {{ person.desc }}
                     </p>
                   </div>
                 </div>
@@ -62,22 +63,26 @@ export default {
         {
           name: 'Mike Gagnon',
           pos: 'Attorney at Law',
-          img: require('~/static/mike04.jpeg')
+          img: require('~/static/mike04.jpeg'),
+          desc: 'A self proclaimed \'good guy\', Michael Gagnon has been fighting for clients tirelessly for over two decades. He is an experienced trial lawyer who specializes in personal injury, business law, & family law.'
         },
         {
           name: 'Justin Eisele',
           pos: 'Attorney at Law',
-          img: require('~/static/justin01.jpeg')
+          img: require('~/static/justin01.jpeg'),
+          desc: 'Michael Gagnon, esq. is a trial lawyer who specializes in injury law, business law, &amp; family law.'
         },
         {
           name: 'Barry Rigby',
           pos: 'Attorney & Advisor',
-          img: require('~/static/barry01.jpg')
+          img: require('~/static/barry01.jpg'),
+          desc: 'Michael Gagnon, esq. is a trial lawyer who specializes in injury law, business law, &amp; family law.'
         },
         {
-          name: 'Anna Rosario',
-          pos: 'Case Manager & Paralegal',
-          img: require('~/static/anna01.jpg')
+          name: 'Anna Rovetto',
+          pos: 'Office Manager & Paralegal',
+          img: require('~/static/anna01.jpg'),
+          desc: 'Michael Gagnon, esq. is a trial lawyer who specializes in injury law, business law, &amp; family law.'
         }
       ]
     }

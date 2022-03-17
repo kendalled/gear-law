@@ -19,12 +19,10 @@
     <div class="absolute w-full h-1/2 bg-warm-gray-50" aria-hidden="true" />
     <!-- Decorative dot pattern -->
     <div class="absolute px-4 mx-auto mt-24 md:relative max-w-7xl sm:px-6 lg:px-8">
+      <SubText :text="'get started'" />
       <div class="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
-        <h2 class="text-base font-semibold tracking-wider text-blue-800 uppercase">
-          get started <span class="tracking-normal">&mdash;&mdash;</span>
-        </h2>
         <h3 class="mt-2 text-3xl font-extrabold tracking-tight text-gray-800 playfair sm:text-4xl">
-          Schedule your free consultation in minutes
+          Schedule your free consultation in minutes.
         </h3>
         <p class="text-xl text-gray-600">
           With over five decades of combined experience on your side, one of our experienced attorneys will fight tirelessly for your case.

@@ -3,9 +3,7 @@
   <div class="relative py-16 bg-gray-50 sm:py-24 lg:pb-12">
     <div class="max-w-md px-4 mx-auto text-center sm:px-6 sm:max-w-3xl lg:px-8 lg:max-w-7xl">
       <div>
-        <h2 style="letter-spacing: 0.03em;" class="text-base font-semibold tracking-wider text-blue-600 uppercase">
-          simplify your case
-        </h2>
+        <SubText :text="'simplify your case'" class="text-center" />
         <p class="mt-2 text-3xl font-extrabold tracking-tight text-gray-800 playfair sm:text-4xl">
           No lawyer? No problem.
         </p>
