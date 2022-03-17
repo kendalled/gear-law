@@ -95,8 +95,8 @@
             <rect x="3" y="5" width="18" height="14" rx="2" />
             <polyline points="3 7 12 13 21 7" />
           </svg>
-          <a class="hidden text-sm text-blue-100 md:inline-block hover:text-blue-50" href="mailto:mike@gear.law" target="_blank">mike@gear.law</a>
-          <a v-show="emailOpen" class="inline-block text-sm text-blue-100 md:hidden hover:text-blue-50" href="mailto:mike@gear.law" target="_blank">mike@gear.law</a>
+          <a class="hidden text-sm text-blue-100 md:inline-block hover:text-blue-50" href="mailto:contact@gear.law" target="_blank">contact@gear.law</a>
+          <a v-show="emailOpen" class="inline-block text-sm text-blue-100 md:hidden hover:text-blue-50" href="mailto:contact@gear.law" target="_blank">contact@gear.law</a>
         </span>
 
         <!-- location -->
