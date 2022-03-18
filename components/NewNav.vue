@@ -1,16 +1,16 @@
 <template>
   <!-- This example requires Tailwind CSS v2.0+ -->
-  <div class="relative bg-gray-50">
+  <div class="relative z-50 bg-gray-50">
     <BlueBar />
     <div class="relative bg-white shadow">
       <div class="px-4 mx-auto max-w-7xl sm:px-6">
         <div class="flex items-center justify-between py-6 md:justify-start md:space-x-10">
           <div class="flex justify-start lg:w-0 lg:flex-1">
             <!-- todo: more elegant solution? -->
-            <a href="#" class="mr-24">
+            <nuxt-link to="/" title="Home page" class="mr-24">
               <span class="sr-only">Gear Law</span>
               <img class="absolute w-auto h-12 top-3 md:h-16" src="~/static/gear2.svg" alt="">
-            </a>
+            </nuxt-link>
           </div>
           <div class="-my-2 -mr-2 md:hidden">
             <button type="button" class="inline-flex items-center justify-center p-2 text-gray-400 bg-white rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500" aria-expanded="false">

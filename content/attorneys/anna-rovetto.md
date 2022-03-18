@@ -1,7 +1,8 @@
 ---
-title: Mike Gagnon, Attorney
+title: Anna Rovetto, Office Manager
 pos: Esq.
 description: Mike Gagnon is a self-proclaimed “good guy”. He has a passion for justice and cares even more about people. Litigation is not for everyone, and probably not for him, but his ability to deal with nonsense and his love for arguing tough issues head-on has produced great results. Gratitude is a way of life for Mike.
+img: anna01.jpg
 ---
 ### Background ###
 

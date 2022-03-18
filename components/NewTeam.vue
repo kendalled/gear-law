@@ -38,10 +38,13 @@
                     </p>
                   </div>
                   <div class="text-lg">
-                    <p class="text-gray-500">
+                    <p class="inline-block text-gray-500 line-clamp-4">
                       {{ person.desc }}
                     </p>
                   </div>
+                  <nuxt-link class="inline-block text-blue-600 hover:text-blue-500" :to="'/attorneys/' + person.slug">
+                    Read more
+                  </nuxt-link>
                 </div>
               </div>
             </div>
@@ -64,25 +67,29 @@ export default {
           name: 'Mike Gagnon',
           pos: 'Attorney at Law',
           img: require('~/static/mike04.jpeg'),
-          desc: 'A self proclaimed \'good guy\', Michael Gagnon has been fighting for clients tirelessly for over two decades. He is an experienced trial lawyer who specializes in personal injury, business law, & family law.'
+          desc: 'A self proclaimed \'good guy\', Michael Gagnon has been fighting for clients tirelessly for over two decades. He is an experienced trial lawyer who specializes in personal injury, business law, & family law.',
+          slug: 'mike-gagnon'
         },
         {
           name: 'Justin Eisele',
           pos: 'Attorney at Law',
           img: require('~/static/justin01.jpeg'),
-          desc: 'Michael Gagnon, esq. is a trial lawyer who specializes in injury law, business law, &amp; family law.'
+          desc: 'Mr. Eisele successfully owned and operated a small business in downtown Athens, Georgia while also attending the university full time. He is fully licensed in business law and has been practicing for over 20 years.',
+          slug: 'justin-eisele'
         },
         {
           name: 'Barry Rigby',
           pos: 'Attorney & Advisor',
           img: require('~/static/barry01.jpg'),
-          desc: 'Michael Gagnon, esq. is a trial lawyer who specializes in injury law, business law, &amp; family law.'
+          desc: 'Barry Rigby has been a licensed attorney since 1986.  His legal experience is wide-ranging and varied. After law school, he worked as a staff analyst with the House of Representatives.',
+          slug: 'barry-rigby'
         },
         {
           name: 'Anna Rovetto',
           pos: 'Office Manager & Paralegal',
           img: require('~/static/anna01.jpg'),
-          desc: 'Michael Gagnon, esq. is a trial lawyer who specializes in injury law, business law, &amp; family law.'
+          desc: 'Anna Rovetto is a jack-of-all-trades. She has worked as a Realtor, Case Manager, Paralegal, and Lawyer for over 20 years. She has worked in family law, criminal law, and business law.',
+          slug: 'anna-rovetto'
         }
       ]
     }

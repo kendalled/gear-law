@@ -1,7 +1,7 @@
 <template>
   <main>
     <!-- This example requires Tailwind CSS v2.0+ -->
-    <Navbar />
+    <NewNav />
     <ContentSection :doc="document" />
     <BlackCta />
     <CustomFooter />
@@ -11,9 +11,9 @@
 <script>
 export default {
   layout: 'default',
-  async asyncData ({ $content }) {
-    const document = await $content('mike').fetch()
-
+  async asyncData ({ $content, params }) {
+    const document = await $content('attorneys', params.slug).fetch()
+    // returns page data
     return {
       document
     }

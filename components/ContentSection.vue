@@ -64,7 +64,13 @@
             <figure>
               <!-- was: aspect-h-7 and messed w focal points -->
               <div class="aspect-w-12 aspect-h-11 lg:aspect-none">
-                <img class="object-cover object-center rounded-lg shadow-lg" src="https://images.unsplash.com/photo-1584048198927-360884379d54?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&crop=focalpoint&fp-x=.535&fp-y=.3&w=1184&h=1376&q=80" alt="Mike Gagnon in business attire." width="1184" height="1376">
+                <ContentImage
+                  :src="doc.img"
+                  width="1184"
+                  height="1376"
+                  :alt="doc.title + ' portrait'"
+                  class="object-cover object-center rounded-lg shadow-lg"
+                />
               </div>
               <figcaption class="flex mt-3 text-sm text-gray-500">
                 <!-- Heroicon name: solid/camera -->

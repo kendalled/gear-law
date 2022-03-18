@@ -1,7 +1,7 @@
 <template>
   <div class="relative bg-gray-900">
     <div class="relative h-56 bg-blue-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
-      <img class="object-cover w-full h-full" src="wholeteam.jpeg" alt="">
+      <img class="object-cover w-full h-full" src="~/static/wholeteam.jpeg" alt="">
       <div aria-hidden="true" class="absolute inset-0 bg-gradient-to-r from-blue-500 to-blue-600 mix-blend-multiply" />
     </div>
     <div class="relative max-w-md px-4 py-12 mx-auto sm:max-w-7xl sm:px-6 sm:py-20 md:py-28 lg:px-8 lg:py-32">
