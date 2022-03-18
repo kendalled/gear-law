@@ -22,9 +22,10 @@
                   <h3 class="text-gray-800">
                     {{ staff.name }}
                   </h3>
-                  <nuxt-link to="/mike" title="Mike Gagnon Biography" class="text-blue-600">
+                  <!-- todo: maybe h4? -->
+                  <p class="text-blue-600">
                     {{ staff.pos }}
-                  </nuxt-link>
+                  </p><p />
                 </div>
 
                 <ul role="list" class="flex justify-center space-x-5">

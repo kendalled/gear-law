@@ -24,7 +24,7 @@
           <h2 class="text-base font-semibold tracking-wide text-blue-600 uppercase">
             Biography
           </h2>
-          <h3 class="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl">
+          <h3 class="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 playfair sm:text-4xl">
             {{ doc.title }}
           </h3>
         </div>
