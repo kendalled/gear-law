@@ -69,7 +69,7 @@
                   width="1184"
                   height="1376"
                   :alt="doc.title + ' portrait'"
-                  class="object-cover object-center rounded-lg shadow-lg"
+                  class="object-cover object-top rounded-lg shadow-lg lg:object-center"
                 />
               </div>
               <figcaption class="flex mt-3 text-sm text-gray-500">
