@@ -48,7 +48,7 @@
                     </p>
                   </div>
                   <nuxt-link class="inline-block text-blue-600 hover:text-blue-500" :to="'/attorneys/' + person.slug">
-                    Read more
+                    Read more <span>&rarr;</span>
                   </nuxt-link>
                 </div>
               </div>
