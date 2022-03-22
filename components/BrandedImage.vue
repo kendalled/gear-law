@@ -10,7 +10,7 @@
         Our Attorneys
       </h1>
       <p class="max-w-3xl mt-6 text-xl text-blue-100">
-        Mattis amet hendrerit dolor, quisque lorem pharetra. Pellentesque lacus nisi urna, arcu sociis eu. Orci vel lectus nisl eget eget ut consectetur. Sit justo viverra non adipisicing elit distinctio.
+        Serving the greater Orlando area for over two decades has allowed us to excel in injury law, family law, criminal law, and more. Meet our team of experienced attorneys and schedule a free consultation today.
       </p>
     </div>
   </div>
