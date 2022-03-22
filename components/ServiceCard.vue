@@ -1,12 +1,12 @@
 <template>
-  <div class="relative w-full col-span-1 bg-blue-900 rounded shadow-md cursor-pointer group hover:bg-red-900 h-96 md:w-96">
+  <div class="relative w-full col-span-1 transition-colors bg-blue-900 rounded shadow-md cursor-pointer group hover:bg-blue-500 h-96 md:w-96">
     <span class="flex items-center justify-start w-full h-full text-gray-200">
       <div class="px-16">
         <slot />
         <p class="mt-3 text-3xl font-medium text-gray-100 playfair">{{ service1 }} {{ service2 }}</p>
       </div>
     </span>
-    <span class="absolute bottom-0 right-0 flex items-center justify-center w-16 h-16 text-gray-100 bg-red-900 rounded-tl rounded-br group-hover:bg-blue-900">
+    <span class="absolute bottom-0 right-0 flex items-center justify-center w-16 h-16 bg-blue-500 rounded-tl rounded-br group-hover:text-gray-50 text-blue-50 group-hover:bg-blue-900">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         class="w-12 h-12"
