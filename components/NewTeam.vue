@@ -26,9 +26,14 @@
         <ul role="list" class="space-y-12 lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-8 lg:gap-y-12 lg:space-y-0">
           <li v-for="person in attorneys" :key="person.name">
             <div class="space-y-4 sm:grid sm:grid-cols-3 sm:gap-6 sm:space-y-0 lg:gap-8">
-              <div class="h-0 aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4">
-                <img :class="[person.name !== 'Anna Rosario' ? 'object-top md:object-center' : 'object-center']" class="object-cover rounded-lg shadow-lg" :src="person.img" :alt="person.name + ' portrait'">
-              </div>
+              <nuxt-link
+                :to="'/attorneys/' + person.slug"
+                :title="person.name + ' profile'"
+              >
+                <div class="h-0 aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4">
+                  <img :class="[person.name !== 'Anna Rosario' ? 'object-top md:object-center' : 'object-center']" class="object-cover rounded-lg shadow-lg" :src="person.img" :alt="person.name + ' portrait'">
+                </div>
+              </nuxt-link>
               <div class="sm:col-span-2">
                 <div class="space-y-4">
                   <div class="space-y-1 text-lg font-medium leading-6">

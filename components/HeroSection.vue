@@ -18,9 +18,9 @@
           </p>
           <div class="max-w-sm mx-auto mt-10 sm:max-w-none sm:flex sm:justify-center">
             <div class="space-y-4 sm:space-y-0 sm:mr-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
-              <a href="#" class="flex items-center justify-center px-4 py-3 text-base font-medium text-blue-700 bg-white border border-transparent rounded-md shadow-sm hover:bg-blue-50 sm:px-8">
+              <nuxt-link to="/contact" title="Contact form" class="flex items-center justify-center px-4 py-3 text-base font-medium text-blue-700 bg-white border border-transparent rounded-md shadow-sm hover:bg-blue-50 sm:px-8">
                 Get started
-              </a>
+              </nuxt-link>
               <a href="#" class="flex items-center justify-center px-4 py-3 text-base font-medium text-white bg-blue-500 border border-transparent rounded-md shadow-sm bg-opacity-60 hover:bg-opacity-70 sm:px-8">
                 Learn more
               </a>
