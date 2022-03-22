@@ -1,14 +1,18 @@
 <template>
   <div>
-    <!-- <UpdateBrowser v-if="isInternet" /> -->
-    <!-- <FullNav /> -->
+    <BreakPoints v-if="dev" />
     <nuxt />
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Default'
+  name: 'Default',
+  computed: {
+    dev () {
+      return process.env.NODE_ENV === 'development'
+    }
+  }
 }
 </script>
 

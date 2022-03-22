@@ -119,7 +119,7 @@
             <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
           </svg>
           <a class="hidden text-sm text-blue-100 md:inline-block hover:text-blue-50" href="https://www.google.com/search?q=gear+law+address&oq=gear+law+address&aqs=chrome..69i57j33i160l2.2896j1j7&sourceid=chrome&ie=UTF-8#" target="_blank">1881 Lee Road, Winter Park, FL</a>
-          <a v-show="mapOpen" class="inline-block text-sm text-blue-100 md:hidden hover:text-blue-50" href="https://www.google.com/search?q=gear+law+address&oq=gear+law+address&aqs=chrome..69i57j33i160l2.2896j1j7&sourceid=chrome&ie=UTF-8#" target="_blank">1881 Lee Rd, 32792</a>
+          <a v-show="mapOpen" class="inline-block text-sm text-blue-100 md:hidden hover:text-blue-50" href="https://www.google.com/search?q=gear+law+address&oq=gear+law+address&aqs=chrome..69i57j33i160l2.2896j1j7&sourceid=chrome&ie=UTF-8#" target="_blank">1881 Lee Road, 32792</a>
         </span>
       </div>
     </div>

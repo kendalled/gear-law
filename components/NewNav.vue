@@ -1,6 +1,6 @@
 <template>
   <!-- This example requires Tailwind CSS v2.0+ -->
-  <div class="relative z-50 bg-gray-50">
+  <div class="relative z-40 bg-gray-50">
     <BlueBar />
     <div class="relative bg-white border-b border-gray-200">
       <div class="px-4 mx-auto max-w-7xl sm:px-6">

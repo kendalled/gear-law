@@ -1,6 +1,5 @@
 <template>
   <main class="overflow-x-hidden">
-    <!-- <CombinedNav /> -->
     <NewNav />
     <HeroSection />
     <InfoSection />
