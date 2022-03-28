@@ -4,20 +4,17 @@ pos: Esq.
 description: Mike Gagnon is a self-proclaimed “good guy”. He has a passion for justice and cares even more about people. Litigation is not for everyone, and probably not for him, but his ability to deal with nonsense and his love for arguing tough issues head-on has produced great results. Gratitude is a way of life for Mike.
 img: justin01.jpeg
 ---
-### Background ###
+Mr. Eisele received a Bachelor of Arts in Speech Communication from the University of Georgia.  During undergraduate studies, Mr. Eisele successfully owned and operated a small business in downtown Athens, Georgia while also attending the university full time.
 
-Growing up the second oldest of seven children, Mike is used to dealing with managing human emotions and high-intensity situations. His family moved to Paris France when he was nine and lived there for four years. He credits this experience for his ability to appreciate different viewpoints and to adapt to new challenges.
+Upon graduation from the University of Georgia, Mr. Eisele pursued a career working for Bluelinx, the largest distributor of building products in the country.  After being promoted to Territory Manager for the central Florida region, Mr. Eisele moved to Orlando.
 
-Mike has been an Orlando resident since 1999. After graduating from Bishop Moore High school, he attended the University of Central Florida and then completed his education at Florida A&M College of Law located in downtown Orlando. Mike went on to intern with the Federal Public Defenders office of the Middle District of Florida and both the Office of the State Attorney and the Public Defender for the 9th Circuit in Orange County, FL.
+In 2007, Mr. Eisele decided to pursue his real passion in the study and practice of law.  Mr. Eisele attended Florida A&M College of Law where he excelled academically graduating Magna Cum Laude and fourth in his class.  Mr. Eisele was the recipient of the Holland and Knight LLP Scholarship Award as well as the Lucas Oil Scholarship based on outstanding academic achievement. Mr. Eisele was also recognized for his participation in the Moot Court Advocacy Program which crafted his oral argument skills in addition to developing and mastering legal reasoning and writing skills as the Articles Editor for the Florida A&M Law Review.
 
-### Business beginnings ###
+During his legal studies, Mr. Eisele was a Summer Associate with Holland and Knight focusing on construction litigation matters and product liability defense.  Mr. Eisele also interned with the Federal Public Defender for the Middle District of Florida and also gained valuable experience during a clerkship with Judge Jose Rodriguez in the Ninth Judicial Circuit in and for Orange County Florida.
 
-Fresh out of law school, Mike started a law firm with Justin Eisele, Esq. Justin was ranked as number one in their law school, so it was an easy choice to follow him into private practice. With the addition of long-time mentor and friend Barry Rigby, Esq. the firm has a team of lawyers that work together to get results for clients that very few firms can match.
+Mr. Eisele currently focuses his practice on commercial litigation.  Mr. Eisele has extensive experience litigating construction cases, including representing homeowners against builder/developers for breach of contract and negligent construction.  Other areas of practice include:
 
-### Areas of expertise ###
-
-Mike’s main areas of practice are Personal Injury, Family Law, and Criminal Defense. Mike's driving force behind his passion for law was witnessing the grueling process of several of his siblings suffering catastrophic injuries caused by the negligence of others.
-
-### Summary ###
-
-Mike’s approach to the practice of law is built upon a foundation of gratitude. Grateful for all he has, grateful for every opportunity, and grateful for the clients who put trust in him to get results when they need it most.
+- Contract Negotiation, Entity Formation, and Contractual Disputes/Litigation
+- Real Property Transactions and Disputes, Landlord-Tenant, and Foreclosure
+- Personal Injury- Automobile and Premise Liability cases
+- General Civil Litigation

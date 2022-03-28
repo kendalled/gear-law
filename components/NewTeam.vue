@@ -31,7 +31,12 @@
                 :title="person.name + ' profile'"
               >
                 <div class="h-0 aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4">
-                  <img :class="[person.name !== 'Anna Rosario' ? 'object-top md:object-center' : 'object-center']" class="object-cover rounded-lg shadow-lg" :src="person.img" :alt="person.name + ' portrait'">
+                  <picture>
+                    <source :srcSet="person.imgW" type="image/webp">
+                    <source :srcSet="person.img" type="image/jpeg">
+                    <img :class="[person.name !== 'Anna Rosario' ? 'object-top md:object-center' : 'object-center']" :src="person.img" class="object-cover rounded-lg shadow-lg" :alt="person.name + ' portrait'">
+                  </picture>
+                  <!-- <img :class="[person.name !== 'Anna Rosario' ? 'object-top md:object-center' : 'object-center']" class="object-cover rounded-lg shadow-lg" :src="person.img" :alt="person.name + ' portrait'"> -->
                 </div>
               </nuxt-link>
               <div class="sm:col-span-2">
@@ -71,6 +76,7 @@ export default {
         {
           name: 'Mike Gagnon',
           pos: 'Attorney at Law',
+          imgW: require('~/static/mike04.webp'),
           img: require('~/static/mike04.jpeg'),
           desc: 'A self proclaimed \'good guy\', Michael Gagnon has been fighting for clients tirelessly for over two decades. He is an experienced trial lawyer who specializes in personal injury, business law, & family law.',
           slug: 'mike-gagnon'
@@ -78,6 +84,7 @@ export default {
         {
           name: 'Justin Eisele',
           pos: 'Attorney at Law',
+          imgW: require('~/static/justin01.webp'),
           img: require('~/static/justin01.jpeg'),
           desc: 'Mr. Eisele successfully owned and operated a small business in downtown Athens, Georgia while also attending the university full time. He is fully licensed in business law and has been practicing for over 20 years.',
           slug: 'justin-eisele'
@@ -85,13 +92,15 @@ export default {
         {
           name: 'Barry Rigby',
           pos: 'Attorney & Advisor',
-          img: require('~/static/barry01.jpg'),
+          imgW: require('~/static/barry01-small.webp'),
+          img: require('~/static/barry01-small.jpg'),
           desc: 'Barry Rigby has been a licensed attorney since 1986.  His legal experience is wide-ranging and varied. After law school, he worked as a staff analyst with the House of Representatives.',
           slug: 'barry-rigby'
         },
         {
           name: 'Anna Rovetto',
           pos: 'Office Manager & Paralegal',
+          imgW: require('~/static/anna01.webp'),
           img: require('~/static/anna01.jpg'),
           desc: 'Anna Rovetto is a jack-of-all-trades. She has worked as a Realtor, Case Manager, Paralegal, and Lawyer for over 20 years. She has worked in family law, criminal law, and business law.',
           slug: 'anna-rovetto'
