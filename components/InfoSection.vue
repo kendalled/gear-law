@@ -16,7 +16,7 @@
         <picture class="w-full h-auto col-span-3 rounded-lg shadow-xl ring-1 ring-black ring-opacity-5">
           <source srcset="~/static/ourTeam.webp" type="image/webp">
           <source srcset="~/static/ourTeam.jpg" type="image/jpeg">
-          <img src="~/static/ourTeam.jpg" alt="Our team of attorneys." class="w-full h-auto col-span-3 rounded-lg shadow-xl ring-1 ring-black ring-opacity-5">
+          <img width="521.14" height="348" src="~/static/ourTeam.jpg" alt="Our team of attorneys." class="w-full h-auto col-span-3 rounded-lg shadow-xl ring-1 ring-black ring-opacity-5">
         </picture>
         <span class="flex flex-col w-full col-span-4 mt-6 text-left lg:mt-0 lg:px-8 lg:justify-center lg:items-center">
           <p class="pb-4 text-lg font-medium text-gray-600 lg:pb-8">
