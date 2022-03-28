@@ -34,14 +34,10 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
-    '@aceforth/nuxt-optimized-images',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts'
   ],
-  optimizedImages: {
-    optimizeImages: true
-  },
   googleFonts: {
     display: 'swap',
     families: {
