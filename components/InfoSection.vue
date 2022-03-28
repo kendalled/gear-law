@@ -32,7 +32,11 @@
               <footer class="mt-3">
                 <div class="flex items-center space-x-3">
                   <div class="flex-shrink-0">
-                    <img class="w-6 h-6 rounded-full" src="~/static/customer.jpg" alt="">
+                    <picture>
+                      <source srcset="~/static/customer.webp" type="image/webp">
+                      <source srcset="~/static/customer.jpg" type="image/jpeg">
+                      <img src="~/static/customer.jpg" alt="Customer portrait" class="w-6 h-6 rounded-full">
+                    </picture>
                   </div>
                   <div class="text-base font-medium text-gray-700">
                     John Fitzgerald, Business Owner
