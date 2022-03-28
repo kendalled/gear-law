@@ -11,9 +11,13 @@
           Our lawyers have the necessary litigation skills and experience to give you the confidence you need to move forward with any case. Our team has you covered &mdash; no matter the issue.
         </p>
       </div>
-      <!-- was lg:-mb-80 -->
+      <!-- was lg:-mb-80 todo: simplify img classes -->
       <div class="mt-12 lg:grid lg:grid-cols-7">
-        <img class="w-full h-auto col-span-3 rounded-lg shadow-xl ring-1 ring-black ring-opacity-5" src="~/static/wholeteam.jpeg" alt="Meeting photo">
+        <picture class="w-full h-auto col-span-3 rounded-lg shadow-xl ring-1 ring-black ring-opacity-5">
+          <source srcset="~/static/ourTeam.webp" type="image/webp">
+          <source srcset="~/static/ourTeam.jpg" type="image/jpeg">
+          <img src="~/static/ourTeam.jpg" alt="Our team of attorneys." class="w-full h-auto col-span-3 rounded-lg shadow-xl ring-1 ring-black ring-opacity-5">
+        </picture>
         <span class="flex flex-col w-full col-span-4 mt-6 text-left lg:mt-0 lg:px-8 lg:justify-center lg:items-center">
           <p class="pb-4 text-lg font-medium text-gray-600 lg:pb-8">
             We collect evidence, secure witnesses, employ effective strategies, research and prepare your documents and pleadings, as well as protect your rights against those who wish to bring harm to you or minimize your claim. Take a look at our countless testimonials below.
