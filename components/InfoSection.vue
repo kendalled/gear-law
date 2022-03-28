@@ -28,7 +28,7 @@
               <footer class="mt-3">
                 <div class="flex items-center space-x-3">
                   <div class="flex-shrink-0">
-                    <img class="w-6 h-6 rounded-full" src="https://images.unsplash.com/photo-1529701870190-9ae4010fd124?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt="">
+                    <img class="w-6 h-6 rounded-full" src="https://images.unsplash.com/photo-1529701870190-9ae4010fd124?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=50" alt="">
                   </div>
                   <div class="text-base font-medium text-gray-700">
                     John Fitzgerald, Business Owner

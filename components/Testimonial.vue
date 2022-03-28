@@ -6,7 +6,7 @@
         <div aria-hidden="true" class="absolute inset-x-0 top-0 bg-white h-1/2 lg:hidden" />
         <div class="max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:p-0 lg:h-full">
           <div class="overflow-hidden shadow-xl aspect-w-10 aspect-h-6 rounded-xl sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full">
-            <img class="object-cover lg:h-full lg:w-full" src="https://images.unsplash.com/photo-1606002830191-c1b4f20e6cda?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2102&q=90" alt="">
+            <img class="object-cover lg:h-full lg:w-full" src="https://images.unsplash.com/photo-1606002830191-c1b4f20e6cda?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2102&q=70" alt="">
           </div>
         </div>
       </div>
