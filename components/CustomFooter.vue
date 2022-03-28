@@ -6,7 +6,7 @@
     <div class="max-w-md px-4 pt-12 mx-auto sm:max-w-7xl sm:px-6 lg:pt-16 lg:px-8">
       <div class="xl:grid xl:grid-cols-3 xl:gap-8">
         <div class="space-y-8 xl:col-span-1">
-          <img class="h-20 -ml-2" src="~/static/gear2.svg" alt="Company name">
+          <img width="150.25" height="80" class="h-20 -ml-2" src="~/static/gear2.svg" alt="Company name">
           <p class="text-base text-gray-500">
             Making the world a better place through constructing elegant hierarchies.
           </p>
