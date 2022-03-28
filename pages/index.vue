@@ -27,7 +27,8 @@ export default {
         name: 'description',
         content: 'Gagnon, Eisele & Rigby Attorneys Serving Orlando & Central Florida for over 10 years. Hire us your not hiring just a attorney but a team that collaborates, to achieve the absolute best out come for our clients cases.'
       }
-    ]
+    ],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '~/static/favicon.ico' }]
   }
 }
 </script>

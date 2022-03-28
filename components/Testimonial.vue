@@ -6,7 +6,11 @@
         <div aria-hidden="true" class="absolute inset-x-0 top-0 bg-white h-1/2 lg:hidden" />
         <div class="max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:p-0 lg:h-full">
           <div class="overflow-hidden shadow-xl aspect-w-10 aspect-h-6 rounded-xl sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full">
-            <img class="object-cover lg:h-full lg:w-full" src="~/static/test.jpg" alt="">
+            <picture>
+              <source srcset="~/static/test.webp" type="image/webp">
+              <source srcset="~/static/test.jpg" type="image/jpeg">
+              <img src="~/static/test.jpg" alt="Customer portrait" class="object-cover lg:h-full lg:w-full">
+            </picture>
           </div>
         </div>
       </div>
