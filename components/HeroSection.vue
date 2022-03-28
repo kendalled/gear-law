@@ -6,9 +6,9 @@
       <div class="relative shadow-xl sm:rounded-none sm:overflow-hidden">
         <div class="absolute inset-0">
           <picture>
-            <source srcset="/static/hero_1_optim.webp" type="image/webp">
-            <source srcset="/static/hero_1_optim.jpg" type="image/jpeg">
-            <img src="~/static/hero_1_optim.jpg" alt="Example of personal injury" class="object-cover w-full h-full">
+            <source srcset="~/static/hero-optim.webp" type="image/webp">
+            <source srcset="~/static/hero-1.jpg" type="image/jpeg">
+            <img src="~/static/hero-1.jpg" alt="Example of personal injury" class="object-cover w-full h-full">
           </picture>
           <!-- <img class="object-cover w-full h-full" src="~/static/hero_1_optim.jpg" alt="People working on laptops"> -->
           <div class="absolute inset-0 bg-gradient-to-r from-blue-600 to-blue-900 mix-blend-multiply" />
