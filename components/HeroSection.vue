@@ -18,7 +18,7 @@
             <span class="block text-blue-200">within one hour.</span>
           </h1>
           <p class="mt-6 mr-auto text-xl text-left text-blue-200 max-w-7xl sm:max-w-2xl">
-            Serving the greater Orlando area for over two decades has allowed us to excel in injury law, family law, criminal law, and more. Meet our team of experienced attorneys and schedule a free consultation today.
+            Serving the greater Orlando area for over two decades has allowed us to excel in injury law, family law, criminal law, &amp; more. Meet our team of experienced attorneys and schedule a free consultation today.
           </p>
           <div class="max-w-sm mx-auto mt-10 sm:max-w-none sm:flex sm:justify-center">
             <div class="space-y-4 sm:space-y-0 sm:mr-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
