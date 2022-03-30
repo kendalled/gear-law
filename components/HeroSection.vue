@@ -5,11 +5,12 @@
       <!-- was rounded-2xl -->
       <div class="relative shadow-xl sm:rounded-none sm:overflow-hidden">
         <div class="absolute inset-0">
-          <picture>
+          <!-- <picture>
             <source srcset="~/static/hero-optim.webp" type="image/webp">
-            <source srcset="~/static/hero-1.jpg" type="image/jpeg">
+            <source srcset="~/static/hero-1-new.jpg" type="image/jpeg">
             <img src="~/static/hero-1.jpg" alt="Example of personal injury" class="object-cover w-full h-full">
-          </picture>
+          </picture> -->
+          <img src="~/static/hero-1-new.jpg" alt="Example of personal injury" class="object-cover w-full h-full">
           <!-- <img class="object-cover w-full h-full" src="~/static/hero_1_optim.jpg" alt="People working on laptops"> -->
           <div class="absolute inset-0 bg-gradient-to-r from-blue-600 to-blue-900 mix-blend-multiply" />
         </div>
