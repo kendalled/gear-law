@@ -133,7 +133,7 @@ export default {
         handler: this.moreOpenMethod,
         events: ['click'],
         // activate / deactivate click-outside directive dynamically
-        isActive: this.mobileOpen
+        isActive: this.isOpen
       }
     }
   },
