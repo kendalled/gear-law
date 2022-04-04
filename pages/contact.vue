@@ -2,7 +2,10 @@
   <!--
     TODO: fix gray dots
   -->
-  <ContactPage />
+  <main>
+    <BlueBar />
+    <ContactPage />
+  </main>
 </template>
 
 <script>
