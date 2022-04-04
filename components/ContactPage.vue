@@ -109,7 +109,7 @@
               Get started in minutes.
             </h1>
             <p class="max-w-3xl mt-6 text-xl text-warm-gray-500">
-              Vel nunc non ut montes, viverra tempor. Proin lectus nibh phasellus morbi non morbi. In elementum urna ut volutpat. Sagittis et vel et fermentum amet consequat.
+              Simply fill out the form below, and our team of legal professionals will be in touch with you shortly. No matter the details of your case, we will be happy to help you. Simply describe your issue below to begin.
             </p>
           </div>
         </div>
