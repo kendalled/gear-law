@@ -181,7 +181,8 @@
           <h3 class="text-lg font-medium text-gray-900">
             Send us a message
           </h3>
-          <form data-netlify="true" name="Contact Form" method="POST" class="grid grid-cols-1 mt-6 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+          <form data-netlify="true" data-netlify-honeypot="bot-field" name="Contact-Form" method="POST" class="grid grid-cols-1 mt-6 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+            <input type="hidden" name="form-name" value="Contact-Form" />
             <div>
               <label for="first-name" class="block text-sm font-medium text-gray-900">First name</label>
               <div class="mt-1">
