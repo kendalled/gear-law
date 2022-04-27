@@ -1,7 +1,8 @@
 <template>
   <main class="min-h-screen bg-white">
-    <ContactBar />
-    <AngledHero />
+    <BlueBar />
+    <NavRedux />
+    <HeroSection />
     <ColoredCloud />
     <Services />
     <PrettyCta />

@@ -11,30 +11,29 @@
               <span class="sr-only">Gear Law</span>
               <img class="absolute w-auto h-12 top-3 md:h-12 lg:h-16" src="~/static/gear2.svg" alt="">
             </nuxt-link>
-            <nav class="hidden space-x-10 lg:flex lg:pl-14">
+            <nav class="hidden space-x-10 lg:flex">
+              <nuxt-link to="/attorneys" title="Our Attorneys" class="text-base font-medium text-gray-500 lg:ml-14 hover:text-gray-900">
+                Attorneys
+              </nuxt-link>
               <div class="relative">
                 <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
                 <button type="button" class="inline-flex items-center text-base font-medium text-gray-500 bg-white rounded-md group hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500" aria-expanded="false" @click.prevent="servicesOpen = true">
                   <span>Services</span>
                   <!--
-                Heroicon name: solid/chevron-down
+                  Heroicon name: solid/chevron-down
 
-                Item active: "text-gray-600", Item inactive: "text-gray-400"
-              -->
+                  Item active: "text-gray-600", Item inactive: "text-gray-400"
+                -->
                   <svg class="w-5 h-5 ml-2 text-gray-400 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                     <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
                   </svg>
                 </button>
 
                 <!--
-              'Services' flyout menu, show/hide based on flyout menu state.
-              -->
+                'Services' flyout menu, show/hide based on flyout menu state.
+                -->
                 <ServicesOpen :open="servicesOpen" @close="servicesOpen = false" />
               </div>
-
-              <nuxt-link to="/attorneys" title="Our Attorneys" class="text-base font-medium text-gray-500 hover:text-gray-900">
-                Attorneys
-              </nuxt-link>
               <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-900"> Results </a>
 
               <div class="relative">

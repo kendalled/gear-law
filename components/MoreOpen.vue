@@ -7,10 +7,20 @@
     leave-class="translate-y-0 opacity-100"
     leave-to-class="translate-y-1 opacity-0"
   >
+    <!--
+    Flyout menu, show/hide based on flyout menu state.
+
+    Entering: "transition ease-out duration-200"
+      From: "opacity-0 translate-y-1"
+      To: "opacity-100 translate-y-0"
+    Leaving: "transition ease-in duration-150"
+      From: "opacity-100 translate-y-0"
+      To: "opacity-0 translate-y-1"
+  -->
     <div v-if="isOpen" v-click-outside="vcoConfig" class="absolute z-10 w-screen max-w-md px-2 mt-3 transform -translate-x-1/2 left-1/2 sm:px-0">
       <div class="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
         <div class="relative grid gap-6 px-5 py-6 bg-white sm:gap-8 sm:p-8">
-          <a href="#" class="flex items-start p-3 -m-3 rounded-lg hover:bg-gray-50">
+          <a href="#" class="flex items-start p-3 -m-3 transition duration-150 ease-in-out rounded-lg hover:bg-gray-50">
             <!-- Heroicon name: outline/support -->
             <svg
               class="flex-shrink-0 w-6 h-6 text-blue-600"
@@ -28,7 +38,7 @@
             </div>
           </a>
 
-          <a href="#" class="flex items-start p-3 -m-3 rounded-lg hover:bg-gray-50">
+          <a href="#" class="flex items-start p-3 -m-3 transition duration-150 ease-in-out rounded-lg hover:bg-gray-50">
             <!-- Heroicon name: outline/bookmark-alt -->
             <svg
               class="flex-shrink-0 w-6 h-6 text-blue-600"
@@ -46,7 +56,7 @@
             </div>
           </a>
 
-          <a href="#" class="flex items-start p-3 -m-3 rounded-lg hover:bg-gray-50">
+          <a href="#" class="flex items-start p-3 -m-3 transition duration-150 ease-in-out rounded-lg hover:bg-gray-50">
             <!-- Heroicon name: outline/calendar -->
             <svg
               class="flex-shrink-0 w-6 h-6 text-blue-600"
@@ -64,7 +74,7 @@
             </div>
           </a>
 
-          <a href="#" class="flex items-start p-3 -m-3 rounded-lg hover:bg-gray-50">
+          <a href="#" class="flex items-start p-3 -m-3 transition duration-150 ease-in-out rounded-lg hover:bg-gray-50">
             <!-- Heroicon name: outline/shield-check -->
             <svg
               class="flex-shrink-0 w-6 h-6 text-blue-600"
@@ -89,20 +99,20 @@
             </h3>
             <ul role="list" class="mt-4 space-y-4">
               <li class="text-base truncate">
-                <a href="#" class="font-medium text-gray-900 hover:text-gray-700"> Boost your conversion rate </a>
+                <a href="#" class="font-medium text-gray-900 transition duration-150 ease-in-out hover:text-gray-700"> Boost your conversion rate </a>
               </li>
 
               <li class="text-base truncate">
-                <a href="#" class="font-medium text-gray-900 hover:text-gray-700"> How to use search engine optimization to drive traffic to your site </a>
+                <a href="#" class="font-medium text-gray-900 transition duration-150 ease-in-out hover:text-gray-700"> How to use search engine optimization to drive traffic to your site </a>
               </li>
 
               <li class="text-base truncate">
-                <a href="#" class="font-medium text-gray-900 hover:text-gray-700"> Improve your customer experience </a>
+                <a href="#" class="font-medium text-gray-900 transition duration-150 ease-in-out hover:text-gray-700"> Improve your customer experience </a>
               </li>
             </ul>
           </div>
           <div class="mt-5 text-sm">
-            <a href="#" class="font-medium text-blue-600 hover:text-blue-500"> View all posts <span aria-hidden="true">&rarr;</span></a>
+            <a href="#" class="font-medium text-blue-600 transition duration-150 ease-in-out hover:text-blue-500"> View all posts <span aria-hidden="true">&rarr;</span></a>
           </div>
         </div>
       </div>
