@@ -1,16 +1,8 @@
 <template>
-  <main class="overflow-x-hidden">
+  <main>
     <NewNav />
-    <HeroSection />
-    <InfoSection />
-    <LogoCloud />
-    <Services />
+    <BrandedImage :header="'Business Law'" />
     <NewTeam />
-    <CheckList />
-    <Testimonial />
-    <!-- <ColoredCta /> -->
-    <ContactForm class="overflow-x-hidden" />
-    <!-- CTA Section -->
     <BlackCta />
     <CustomFooter />
   </main>
@@ -20,7 +12,7 @@
 export default {
   layout: 'default',
   head: {
-    title: 'Gagnon, Eisele & Rigby Attorneys: Full Service Orlando Law Firm',
+    title: 'Business Law | Gagnon, Eisele & Rigby Attorneys: Full Service Orlando Law Firm',
     meta: [
       {
         hid: 'description',

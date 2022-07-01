@@ -1,7 +1,7 @@
 <template>
   <main>
     <NewNav />
-    <BrandedImage />
+    <BrandedImage :header="'Our Attorneys'" />
     <NewTeam />
     <BlackCta />
     <CustomFooter />

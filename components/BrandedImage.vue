@@ -7,10 +7,10 @@
     </div>
     <div class="relative px-4 py-24 mx-auto max-w-7xl sm:py-32 sm:px-6 lg:px-8">
       <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
-        Our Attorneys
+        {{ header }}
       </h1>
       <p class="max-w-3xl mt-6 text-xl text-blue-100">
-        Serving the greater Orlando area for over two decades has allowed us to excel in injury law, family law, criminal law, and more. Meet our team of experienced attorneys and schedule a free consultation today.
+        {{ subtitle }}
       </p>
     </div>
   </div>
@@ -18,6 +18,16 @@
 
 <script>
 export default {
-  name: 'BrandedImage'
+  name: 'BrandedImage',
+  props: {
+    header: {
+      type: String,
+      default: 'Our Attorneys'
+    },
+    subtitle: {
+      type: String,
+      default: 'Serving the greater Orlando area for over two decades has allowed us to excel in injury law, family law, criminal law, and more. Meet our team of experienced attorneys and schedule a free consultation today.'
+    }
+  }
 }
 </script>
