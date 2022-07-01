@@ -221,7 +221,9 @@
                 <a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700"> Security </a>
               </div>
               <div>
-                <nuxt-link to="/contact" title="Contact form" class="flex items-center justify-center w-full px-4 py-2 text-base font-medium text-white bg-blue-600 border border-transparent rounded-md shadow-sm hover:bg-blue-700"> Contact us </nuxt-link>
+                <nuxt-link to="/contact" title="Contact form" class="flex items-center justify-center w-full px-4 py-2 text-base font-medium text-white bg-blue-600 border border-transparent rounded-md shadow-sm hover:bg-blue-700">
+                  Contact us
+                </nuxt-link>
                 <p class="mt-6 text-base font-medium text-center text-gray-500">
                   Existing customer?
                   <a href="#" class="text-blue-600 hover:text-blue-500"> Sign in </a>

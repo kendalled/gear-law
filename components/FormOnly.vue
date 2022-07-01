@@ -186,13 +186,13 @@
             <div>
               <label for="first-name" class="block text-sm font-medium text-gray-900">First name</label>
               <div class="mt-1">
-                <input id="first-name" type="text" name="first-name" autocomplete="given-name" class="block w-full px-4 py-3 text-gray-900 border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 form-input">
+                <input id="first-name" type="text" name="first-name" autocomplete="given-name" class="block w-full px-4 py-3 text-gray-900 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 form-input">
               </div>
             </div>
             <div>
               <label for="last-name" class="block text-sm font-medium text-gray-900">Last name</label>
               <div class="mt-1">
-                <input id="last-name" type="text" name="last-name" autocomplete="family-name" class="block w-full px-4 py-3 text-gray-900 border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                <input id="last-name" type="text" name="last-name" autocomplete="family-name" class="block w-full px-4 py-3 text-gray-900 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
               </div>
             </div>
             <div>
@@ -212,7 +212,7 @@
                   type="text"
                   name="phone"
                   autocomplete="tel"
-                  class="block w-full px-4 py-3 text-gray-900 border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
+                  class="block w-full px-4 py-3 text-gray-900 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
                   aria-describedby="phone-optional"
                 >
               </div>
