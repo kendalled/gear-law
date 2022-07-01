@@ -11,7 +11,7 @@
             We provide a full array of affordable business law and bankruptcy law services to small and middle market businesses and entrepenuers. We are a full service law firm that provides a comprehensive range of services to help you achieve your goals.
           </p>
         </div>
-        <ServiceCard service1="Personal" service2="Injury" class="mt-6 lg:mt-0">
+        <ServiceCard service1="Personal" service2="Injury" :link="'/services/personal-injury'" class="mt-6 lg:mt-0">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="w-16 h-16"
@@ -33,7 +33,7 @@
           </svg>
         </ServiceCard>
 
-        <ServiceCard service1="Family" service2="Law" class="mt-6">
+        <ServiceCard service1="Family" service2="Law" :link="'/services/family-law'" class="mt-6">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="w-16 h-16"
@@ -53,7 +53,7 @@
             <line x1="3" y1="21" x2="22" y2="21" />
           </svg>
         </ServiceCard>
-        <ServiceCard service1="Criminal" service2="Law" class="mt-6">
+        <ServiceCard service1="Criminal" service2="Law" :link="'/services/criminal-law'" class="mt-6">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="w-16 h-16"
@@ -76,7 +76,7 @@
             <line x1="9" y1="18" x2="9" y2="18.01" />
           </svg>
         </ServiceCard>
-        <ServiceCard service1="Business" service2="Law" class="mt-6">
+        <ServiceCard service1="Business" service2="Law" :link="'/services/business-law'" class="mt-6">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="w-16 h-16"
