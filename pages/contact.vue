@@ -3,7 +3,6 @@
     TODO: fix gray dots
   -->
   <main>
-    <BlueBar />
     <ContactPage />
   </main>
 </template>

@@ -5,107 +5,7 @@
   This example requires some changes to your config:
   -->
   <div class="bg-white">
-    <header class="relative">
-      <div class="bg-warm-gray-50">
-        <nav class="relative flex items-center justify-between px-6 pt-6 mx-auto max-w-7xl xl:px-8" aria-label="Global">
-          <div class="flex items-center flex-1">
-            <div class="flex items-center justify-between w-full lg:w-auto">
-              <nuxt-link to="/" title="Home page">
-                <span class="sr-only">Gear Law</span>
-                <img class="w-auto h-10 sm:h-16" src="~/static/gear2.svg" alt="">
-              </nuxt-link>
-              <div class="flex items-center -mr-2 lg:hidden">
-                <button type="button" class="inline-flex items-center justify-center p-2 rounded-md bg-warm-gray-50 text-warm-gray-400 hover:bg-warm-gray-100 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-blue-500" aria-expanded="false" @click.prevent="mobileOpen = true">
-                  <span class="sr-only">Open main menu</span>
-                  <!-- Heroicon name: outline/menu -->
-                  <svg
-                    class="w-6 h-6"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    aria-hidden="true"
-                  >
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-                  </svg>
-                </button>
-              </div>
-            </div>
-            <div class="hidden space-x-10 lg:flex lg:ml-10">
-              <a href="#" class="text-base font-medium text-warm-gray-500 hover:text-warm-gray-900">Services</a>
-
-              <a href="#" class="text-base font-medium text-warm-gray-500 hover:text-warm-gray-900">Attorneys</a>
-
-              <a href="#" class="text-base font-medium text-warm-gray-500 hover:text-warm-gray-900">Results</a>
-
-              <a href="#" class="text-base font-medium text-warm-gray-500 hover:text-warm-gray-900">About</a>
-            </div>
-          </div>
-          <div class="hidden lg:flex lg:items-center lg:space-x-6">
-            <nuxt-link to="/" title="Home" class="inline-flex items-center px-4 py-2 text-base font-medium border border-transparent rounded-md text-warm-gray-900 bg-warm-gray-100 hover:bg-warm-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-warm-gray-500">
-              <!-- Heroicon name: reply -->
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-3 -ml-1" viewBox="0 0 20 20" fill="currentColor">
-                <path fill-rule="evenodd" d="M7.707 3.293a1 1 0 010 1.414L5.414 7H11a7 7 0 017 7v2a1 1 0 11-2 0v-2a5 5 0 00-5-5H5.414l2.293 2.293a1 1 0 11-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
-              </svg>
-              Return home
-            </nuxt-link>
-            <a href="#" class="hidden px-6 py-2 text-base font-medium border border-transparent rounded-md bg-warm-gray-100 text-warm-gray-900 hover:bg-warm-gray-200"> Contact us </a>
-          </div>
-        </nav>
-      </div>
-
-      <!--
-      Mobile menu, show/hide based on menu open state.
-      -->
-      <transition
-        enter-active-class="duration-150 ease-out"
-        enter-class="scale-95 opacity-0"
-        enter-to-class="scale-100 opacity-100"
-        leave-active-class="duration-100 ease-in"
-        leave-class="scale-100 opacity-100"
-        leave-to-class="scale-95 opacity-0"
-      >
-        <div v-show="mobileOpen" class="absolute inset-x-0 top-0 z-30 p-2 transition origin-top transform lg:hidden">
-          <div class="overflow-hidden bg-white rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
-            <div class="flex items-center justify-between px-5 pt-4">
-              <div>
-                <img class="w-auto h-10" src="~/static/gear2.svg" alt="">
-              </div>
-              <div class="-mr-2">
-                <button type="button" class="inline-flex items-center justify-center p-2 bg-white rounded-md text-warm-gray-400 hover:bg-warm-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500" @click.prevent="mobileOpen = false">
-                  <span class="sr-only">Close menu</span>
-                  <!-- Heroicon name: outline/x -->
-                  <svg
-                    class="w-6 h-6"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    aria-hidden="true"
-                  >
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-                  </svg>
-                </button>
-              </div>
-            </div>
-            <div class="pt-5 pb-6">
-              <div class="px-2 space-y-1">
-                <a href="#" class="block px-3 py-2 text-base font-medium rounded-md text-warm-gray-900 hover:bg-warm-gray-50">Changelog</a>
-
-                <a href="#" class="block px-3 py-2 text-base font-medium rounded-md text-warm-gray-900 hover:bg-warm-gray-50">About</a>
-
-                <a href="#" class="block px-3 py-2 text-base font-medium rounded-md text-warm-gray-900 hover:bg-warm-gray-50">Partners</a>
-
-                <a href="#" class="block px-3 py-2 text-base font-medium rounded-md text-warm-gray-900 hover:bg-warm-gray-50">News</a>
-              </div>
-              <div class="px-5 mt-6">
-                <a href="#" class="block w-full px-4 py-2 font-medium text-center text-white bg-blue-500 border border-transparent rounded-md shadow hover:bg-blue-600">Login</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </transition>
-    </header>
+    <NewNav />
 
     <main class="overflow-hidden">
       <!-- Header -->
@@ -161,61 +61,119 @@
       </section>
 
       <!-- Contact grid -->
-      <section aria-labelledby="offices-heading">
-        <div class="px-4 py-24 mx-auto max-w-7xl sm:py-32 sm:px-6 lg:px-8">
-          <h2 id="offices-heading" class="text-3xl font-extrabold text-warm-gray-900">
-            Our offices
-          </h2>
-          <p class="max-w-3xl mt-6 text-lg text-warm-gray-500">
-            Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.
-          </p>
-          <div class="grid grid-cols-1 gap-10 mt-10 sm:grid-cols-2 lg:grid-cols-4">
+      <!-- This example requires Tailwind CSS v2.0+ -->
+      <div class="bg-white">
+        <div class="px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:px-8">
+          <div class="max-w-lg mx-auto md:max-w-none md:grid md:grid-cols-2 md:gap-8">
             <div>
-              <h3 class="text-lg font-medium text-warm-gray-900">
-                Los Angeles
-              </h3>
-              <p class="mt-2 text-base text-warm-gray-500">
-                <span class="block">4556 Brendan Ferry</span>
-
-                <span class="block">Los Angeles, CA 90210</span>
-              </p>
+              <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">
+                Legal Support
+              </h2>
+              <div class="mt-3">
+                <p class="text-lg text-gray-500">
+                  Need legal counsel? Unsure of what to do? Contact one of our lawyers using the information below.
+                </p>
+              </div>
+              <div class="mt-9">
+                <div class="flex">
+                  <div class="flex-shrink-0">
+                    <!-- Heroicon name: outline/phone -->
+                    <svg
+                      class="w-6 h-6 text-gray-400"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      aria-hidden="true"
+                    >
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                    </svg>
+                  </div>
+                  <div class="ml-3 text-base text-gray-500">
+                    <p>+1 (407) 379 9957</p>
+                    <p class="mt-1">
+                      Mon-Fri 8am to 6pm EST
+                    </p>
+                  </div>
+                </div>
+                <div class="flex mt-6">
+                  <div class="flex-shrink-0">
+                    <!-- Heroicon name: outline/mail -->
+                    <svg
+                      class="w-6 h-6 text-gray-400"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      aria-hidden="true"
+                    >
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    </svg>
+                  </div>
+                  <div class="ml-3 text-base text-gray-500">
+                    <p>contact@gear.law</p>
+                  </div>
+                </div>
+              </div>
             </div>
-
-            <div>
-              <h3 class="text-lg font-medium text-warm-gray-900">
-                New York
-              </h3>
-              <p class="mt-2 text-base text-warm-gray-500">
-                <span class="block">886 Walter Streets</span>
-
-                <span class="block">New York, NY 12345</span>
-              </p>
-            </div>
-
-            <div>
-              <h3 class="text-lg font-medium text-warm-gray-900">
-                Toronto
-              </h3>
-              <p class="mt-2 text-base text-warm-gray-500">
-                <span class="block">7363 Cynthia Pass</span>
-
-                <span class="block">Toronto, ON N3Y 4H8</span>
-              </p>
-            </div>
-
-            <div>
-              <h3 class="text-lg font-medium text-warm-gray-900">
-                London
-              </h3>
-              <p class="mt-2 text-base text-warm-gray-500">
-                <span class="block">114 Cobble Lane</span>
-
-                <span class="block">London N1 2EF</span>
-              </p>
+            <div class="mt-12 sm:mt-16 md:mt-0">
+              <h2 class="text-2xl font-extrabold text-gray-900 sm:text-3xl">
+                Case Management
+              </h2>
+              <div class="mt-3">
+                <p class="text-lg text-gray-500">
+                  Managing your case has never been easier. Contact our office and case managers below.
+                </p>
+              </div>
+              <div class="mt-9">
+                <div class="flex">
+                  <div class="flex-shrink-0">
+                    <!-- Heroicon name: outline/phone -->
+                    <svg
+                      class="w-6 h-6 text-gray-400"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      aria-hidden="true"
+                    >
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                    </svg>
+                  </div>
+                  <div class="ml-3 text-base text-gray-500">
+                    <p>+1 (407) 379 9957</p>
+                    <p class="mt-1">
+                      Mon-Fri 8am to 6pm EST
+                    </p>
+                  </div>
+                </div>
+                <div class="flex mt-6">
+                  <div class="flex-shrink-0">
+                    <!-- Heroicon name: outline/mail -->
+                    <svg
+                      class="w-6 h-6 text-gray-400"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      aria-hidden="true"
+                    >
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    </svg>
+                  </div>
+                  <div class="ml-3 text-base text-gray-500">
+                    <p>anna@gear.law</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </main>
 
     <footer class="bg-warm-gray-900" aria-labelledby="footer-heading">
