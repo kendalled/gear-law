@@ -1,11 +1,13 @@
 <template>
   <div class="relative bg-gray-900">
     <div class="relative h-56 bg-blue-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
-      <picture>
+      <!-- <picture>
         <source srcset="~/static/ourTeam.webp" type="image/webp">
         <source srcset="~/static/ourTeam.jpg" type="image/jpeg">
-        <img src="~/static/ourTeam.jpg" alt="Our team of attorneys." class="object-cover w-full h-full">
-      </picture>
+        <img src="~/static/justinSmile.jpg" alt="Our team of attorneys." class="object-cover w-full h-full">
+      </picture> -->
+      <!-- todo: webp optimize -->
+      <img src="https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=65" alt="Our team of attorneys." class="object-cover object-right w-full h-full">
       <div aria-hidden="true" class="absolute inset-0 bg-gradient-to-r from-blue-500 to-blue-600 mix-blend-multiply" />
     </div>
     <div class="relative max-w-md px-4 py-12 mx-auto sm:max-w-7xl sm:px-6 sm:py-20 md:py-28 lg:px-8 lg:py-32">

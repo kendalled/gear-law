@@ -13,11 +13,13 @@
       </div>
       <!-- was lg:-mb-80 todo: simplify img classes -->
       <div class="mt-12 lg:grid lg:grid-cols-7">
-        <picture class="w-full h-auto col-span-3 rounded-lg shadow-xl ring-1 ring-black ring-opacity-5">
+        <!-- <picture class="w-full h-auto col-span-3 rounded-lg shadow-xl ring-1 ring-black ring-opacity-5">
           <source srcset="~/static/ourTeam.webp" type="image/webp">
           <source srcset="~/static/ourTeam.jpg" type="image/jpeg">
           <img width="521.14" height="348" src="~/static/ourTeam.jpg" alt="Our team of attorneys." class="w-full h-auto col-span-3 rounded-lg shadow-xl ring-1 ring-black ring-opacity-5">
-        </picture>
+        </picture> -->
+        <!-- todo: webp optimize -->
+        <img src="~/static/lawyers.jpeg" alt="Our team of attorneys." class="w-full h-auto col-span-3 rounded-lg shadow-xl ring-1 ring-black ring-opacity-5">
         <span class="flex flex-col w-full col-span-4 mt-6 text-left lg:mt-0 lg:px-8 lg:justify-center lg:items-center">
           <p class="pb-4 text-lg font-medium text-gray-600 lg:pb-8">
             We collect evidence, secure witnesses, employ effective strategies, research and prepare your documents and pleadings, as well as protect your rights against those who wish to bring harm to you or minimize your claim. Take a look at our countless testimonials below.
