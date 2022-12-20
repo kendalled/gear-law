@@ -38,7 +38,7 @@
                 >
                   <!-- todo: reevaluate hover fx -->
                   <div class="transition-opacity aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4 hover:opacity-95">
-                    <img class="object-cover rounded-lg shadow-lg" :src="person.img" :alt="person.name + ' portrait'">
+                    <img class="object-cover object-top rounded-lg shadow-lg sm:object-center" :src="person.img" :alt="person.name + ' portrait'">
                   </div>
                 </nuxt-link>
                 <div class="sm:col-span-2">
