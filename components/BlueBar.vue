@@ -118,7 +118,7 @@
             <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
           </svg>
           <a class="hidden text-sm text-blue-100 md:inline-block hover:text-blue-50" href="http://maps.google.com/maps?q=397+Wekiva+Springs+Road,+Longwood,+FL+32779" target="_blank">397 Wekiva Springs Road, Longwood, FL</a>
-          <a v-show="mapOpen" class="inline-block text-sm text-blue-100 md:hidden hover:text-blue-50" href="http://maps.google.com/maps?q=397+Wekiva+Springs+Road,+Longwood,+FL+32779" target="_blank">397 Wekiva Springs Rd</a>
+          <a v-show="mapOpen" class="inline-block text-xs text-blue-100 md:hidden hover:text-blue-50" href="http://maps.google.com/maps?q=397+Wekiva+Springs+Road,+Longwood,+FL+32779" target="_blank">397 Wekiva Springs Rd</a>
         </span>
       </div>
     </div>
