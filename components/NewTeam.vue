@@ -90,14 +90,6 @@ export default {
           slug: 'justin-eisele'
         },
         {
-          name: 'Barry Rigby',
-          pos: 'Attorney & Advisor',
-          imgW: require('~/static/barry01-small.webp'),
-          img: require('~/static/barry01-small.jpg'),
-          desc: 'Barry Rigby has been a licensed attorney since 1986.  His legal experience is wide-ranging and varied. After law school, he worked as a staff analyst with the House of Representatives.',
-          slug: 'barry-rigby'
-        },
-        {
           name: 'Anna Rovetto',
           pos: 'Office Manager & Paralegal',
           imgW: require('~/static/anna01.webp'),
