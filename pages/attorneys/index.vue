@@ -2,7 +2,7 @@
   <main>
     <NewNav />
     <BrandedImage :header="'Our Attorneys'" />
-    <NewTeam />
+    <TripleTeam />
     <BlackCta />
     <CustomFooter />
   </main>

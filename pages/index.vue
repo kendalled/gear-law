@@ -5,7 +5,7 @@
     <InfoSection />
     <LogoCloud />
     <Services />
-    <NewTeam />
+    <TripleTeam />
     <CheckList />
     <Testimonial />
     <!-- <ColoredCta /> -->
