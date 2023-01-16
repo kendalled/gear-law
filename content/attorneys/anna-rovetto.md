@@ -1,7 +1,7 @@
 ---
 title: Anna Rovetto, Office Manager
 pos: Esq.
-description: Anna Rovetto is a jack-of-all-trades. She has worked as a Realtor, Case Manager, Paralegal, and Lawyer for over 20 years. She has worked in family law, criminal law, and business law.
+description: Anna Rovetto is a jack-of-all-trades. She has worked as a Realtor, Case Manager, Paralegal, and Office Manager for over 20 years. She has worked in family law, criminal law, and business law.
 img: anna01.jpg
 ---
 ### Introduction ###
