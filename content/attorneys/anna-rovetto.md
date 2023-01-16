@@ -6,7 +6,7 @@ img: anna01.jpg
 ---
 ### Introduction ###
 
-Meet Anna Rovetto, a dedicated and experienced case manager at Gagnon & Eisele Law Firm. Anna has over 10 years of experience working in the legal field, and has a deep understanding of the intricacies of the legal system. She has a proven track record of managing cases from start to finish, ensuring that clients receive the best possible outcome.
+Meet Anna Rovetto, a dedicated and experienced case manager at Gagnon & Eisele Law Firm. Anna has over 27 years of experience working in the legal field, and has a deep understanding of the intricacies of the legal system. She has a proven track record of managing cases from start to finish, ensuring that clients receive the best possible outcome.
 
 Anna's expertise includes working with clients to gather and organize important documents, communicating with opposing counsel, and preparing for trial. She is skilled at handling a high volume of cases at once, and is known for her ability to stay organized and efficient even under tight deadlines.
 
