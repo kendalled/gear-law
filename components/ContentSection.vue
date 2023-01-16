@@ -91,9 +91,9 @@
           <nuxt-content :document="doc" class="mx-auto mt-5 prose text-gray-500 prose-blue lg:max-w-none lg:row-start-1 lg:col-start-1" />
           <div class="flex mx-auto mt-10 text-base max-w-prose lg:max-w-none">
             <div class="rounded-md shadow">
-              <a href="#" class="flex items-center justify-center w-full px-5 py-3 text-base font-medium text-white bg-blue-600 border border-transparent rounded-md hover:bg-blue-700">
+              <nuxt-link to="/contact" title="Contact page" class="flex items-center justify-center w-full px-5 py-3 text-base font-medium text-white bg-blue-600 border border-transparent rounded-md hover:bg-blue-700">
                 Contact sales
-              </a>
+              </nuxt-link>
             </div>
             <div class="ml-4 rounded-md shadow">
               <a href="#" class="flex items-center justify-center w-full px-5 py-3 text-base font-medium text-blue-600 bg-white border border-transparent rounded-md hover:bg-gray-50">
