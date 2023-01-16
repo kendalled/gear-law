@@ -115,7 +115,7 @@ export default {
           pos: 'Office Manager & Paralegal',
           imgW: require('~/static/anna01.webp'),
           img: require('~/static/anna01.jpg'),
-          desc: 'Anna Rovetto is a jack-of-all-trades. She has worked as a Realtor, Case Manager, Paralegal, and Lawyer for over 20 years. She has worked in family law, criminal law, and business law.',
+          desc: 'Anna Rovetto is a jack-of-all-trades. She has worked as a Realtor, Case Manager, Paralegal, and Office Manager for over 20 years. She has worked in family law, criminal law, and business law.',
           slug: 'anna-rovetto'
         }
       ]
